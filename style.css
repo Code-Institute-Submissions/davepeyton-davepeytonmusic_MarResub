@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cover {
+    padding: 50px,30px,20px,10px;
+    animation: drop 1.5s ease;
+}
+@keyframes drop {
+    0% {
+opacity: 0;
+transform: translateY(-80px);
+}
+
+
+}
+
+.logo {
+    position: absolute;
+}
+.lpv :hover {
+   color: rgb(139, 102, 2);
+}
+.cta {
+    position: relative;
+    left :200px;
+    
+}
+.introduction {
+position: relative;
+left:200px;
+}
+.intro-text{
+
+}
+
+.cover {
+    position: relative;
+    left: 150px;
+    
+}
+.welcome-header {
+    background-color: rgb(199, 198, 198);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 25px; 
+}
+
+ .social-links-header{
+    position: absolute;
+    letter-spacing: 20px;
+    text-emphasis-color: black;
+    font-size: 20px;
+    left: 40%;
+    top: 0.5%;
+    }
+.page-menu {
+    position: absolute;
+    letter-spacing: 20px;
+    text-emphasis-color: black;
+    font-size: 20px;
+    left: 90%;
+    top: 1.5px;
+    }
+    .page-menu :hover {
+        color: red;
+    }
+  
+    .social-links-header :hover {
+color: rgb(214, 209, 209);
+    }
+           .cta-pre {
+            border: 2px solid #a8a6a6;
+            background: rgb(145, 8, 8);
+            color: #c37d6c;
+            width: 150px;
+            height: 50px;
+            cursor: pointer;
+            font-size: 16px; 
+            border: none;
+            color:rgb(250, 248, 248);
+            }
+            
+            .cta-listen {
+                background-color: #da6d07;
+                width: 150px;
+            height: 50px;
+            cursor: pointer;
+            font-size: 16px;
+            border:;
+            color: white;
+            margin: 50px 0px 50px 0px;
+            }
+               .presentation {
+                position: relative;
+                left: 20px;
+                border: none;
+                text-align: center;
+}
+
+
+}
+
+}
+        }
+        }
