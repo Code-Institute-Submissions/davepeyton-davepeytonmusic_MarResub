@@ -1,46 +1,63 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+* {
+    margin: 0%;
+    padding: 0%;
+    border: none
 }
 
 .cover {
-    padding: 50px,30px,20px,10px;
-    animation: drop 1.5s ease;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 70px;
+    width: 80%;
+    height: 800%;
+    display: block;
+    position: relative;
+    transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
 }
+
 @keyframes drop {
     0% {
 opacity: 0;
 transform: translateY(-80px);
 }
-
-
 }
 
 .logo {
     position: absolute;
+    padding-left: 15px;
+    background-repeat: no-repeat;
+    width: 200x;
+    height: 200x;
 }
+
 .lpv :hover {
    color: rgb(139, 102, 2);
 }
+
 .cta {
-    position: relative;
-    left :200px;
-    
-}
+    position: center;
+    padding-left: 50%;
+    padding-right: 50%;
+    }
+
 .introduction {
 position: relative;
-left:200px;
+left:20px;
 }
-.intro-text{
 
+.intro-text{
 }
 
 .cover {
     position: relative;
-    left: 150px;
-    
-}
+    left: 40px;
+    }
+
 .welcome-header {
     background-color: rgb(199, 198, 198);
     text-transform: uppercase;
@@ -56,6 +73,7 @@ left:200px;
     left: 40%;
     top: 0.5%;
     }
+
 .page-menu {
     position: absolute;
     letter-spacing: 20px;
@@ -64,6 +82,7 @@ left:200px;
     left: 90%;
     top: 1.5px;
     }
+
     .page-menu :hover {
         color: red;
     }
@@ -71,21 +90,21 @@ left:200px;
     .social-links-header :hover {
 color: rgb(214, 209, 209);
     }
-           .cta-pre {
-            border: 2px solid #a8a6a6;
-            background: rgb(145, 8, 8);
-            color: #c37d6c;
-            width: 150px;
-            height: 50px;
-            cursor: pointer;
-            font-size: 16px; 
-            border: none;
-            color:rgb(250, 248, 248);
+    .cta-pre {
+       border: 2px solid #a8a6a6;
+        background: rgb(145, 8, 8);
+        color: #c37d6c;
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        font-size: 16px; 
+        border: none;
+        color:rgb(250, 248, 248);
             }
             
             .cta-listen {
                 background-color: #da6d07;
-                width: 150px;
+                width: 100px;
             height: 50px;
             cursor: pointer;
             font-size: 16px;
@@ -93,16 +112,19 @@ color: rgb(214, 209, 209);
             color: white;
             margin: 50px 0px 50px 0px;
             }
+
                .presentation {
                 position: relative;
                 left: 20px;
                 border: none;
                 text-align: center;
-}
+               }
 
-
+        @media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
-
-}
-        }
-        }
