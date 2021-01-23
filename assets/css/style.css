@@ -38,27 +38,18 @@
 }
 
 
-.lpv :hover {
+.check-out-single :hover {
    color: rgb(139, 102, 2);
 }
 
-.cta {
-    position: center;
-    padding-left: 50%;
-    padding-right: 50%;
-    }
-
-.introduction {
+.baby.come.on {
 position: relative;
-left:20px;
-}
-
-.intro-text{
+padding-left: 1000px;
 }
 
 .cover {
     position: relative;
-    left: 40px;
+    left: 80px;
     }
 
 .welcome-header {
@@ -70,11 +61,11 @@ left:20px;
 
  .social-links-header{
     position: absolute;
-    letter-spacing: 20px;
+    letter-spacing: 15px;
     text-emphasis-color: black;
-    font-size: 20px;
-    left: 40%;
-    top: 0.5%;
+    font-size: 18px;
+    left: 35%;
+    top: 0.2%;
     }
 
 .page-menu {
@@ -93,37 +84,24 @@ left:20px;
     .social-links-header :hover {
 color: rgb(214, 209, 209);
     }
-    .cta-pre {
-       border: 2px solid #a8a6a6;
-        background: rgb(145, 8, 8);
-        color: #c37d6c;
-        width: 100px;
-        height: 50px;
-        cursor: pointer;
-        font-size: 16px; 
-        border: none;
-        color:rgb(250, 248, 248);
+    .cta {
+       position: relative;
+       width: 1365px;
+       height: 300px;
+       margin: auto;
+            }
+
+            .box {
+                position: relative;
+                width: calc(520px - 100px);
+                height: calc(100px - 30px);
+                 float: left;
+                background: #000;
+                margin: 15px;
+                padding: 150px;
             }
             
-            .cta-listen {
-                background-color: #da6d07;
-                width: 100px;
-            height: 50px;
-            cursor: pointer;
-            font-size: 16px;
-            border:;
-            color: white;
-            margin: 50px 0px 50px 0px;
-            }
-
-               .presentation {
-                position: relative;
-                left: 20px;
-                border: none;
-                text-align: center;
-               }
-
-        @media(min-width: 992px) {
+    @media(min-width: 992px) {
     .center-form {
         padding-top: 30px;
         min-height: 240px;
