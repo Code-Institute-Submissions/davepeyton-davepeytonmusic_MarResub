@@ -86,7 +86,6 @@ color: rgb(214, 209, 209);
     }
 
     .cta {
-       background-image: url(../images/cover.png);
        position: relative;
        width: 1365px;
        height: 300px;
@@ -107,62 +106,32 @@ color: rgb(214, 209, 209);
                 border-radius: 50px;
             }
 
-         .icon1{
-             
-         }
+            .cta .box :hover{
 
-            .cta .box .icon1 {
-                position: absolute;
-                top: 0px;
-                left: 0px;
-                width: 100%;
-                height: 100%;
-                transition: 0.5s;
-                z-index: 1;
-             }
-
-             .cta .box:hover .icon1{
-                 background-image: url(../images/cover.png);
-                 top: 20px;
-                 left: calc(50% - 40px);
-                 width: 80px;
-                 height: 80px;
-                 border-radius: 50%;
-             }
-
-             .cta .box .icon1 .fa{
-                 position: absolute;
-                 top: 50%;
-                 left: 50%;
-                 transform: translate(-50%, -50%);
-                 font-size: 80px;
-                 transition: 0.5s;
-                 color: darkblue;
-             }
-
-             .cta .box:hover .icon1 .fa{
-                font-size: 40px;
             }
 
-            .cta .box .content{
-               position: absolute;
-               top: 100px;
-               height: calc(100% - 100px;
-               text-align: center;
-               padding: 20px;
-               box-sizing: border-box;
-               transition: 0.5s;
+             .play{
+                position: relative;
+                right: 100px;
+                bottom: 150px;
             }
 
-            .cta .box .content h3{
-                margin: 0px;
-                padding: 0px;
-                color: white;
+            .pclass{
+                position: relative;
+                bottom: 200px;
+                font-size: 12px;
+                text-transform: lowercase;
+                color: blue;
             }
 
+            .clickhere {
+                position: relative;
+                bottom: 50px;
+                text-align: left;
+                color: red;
+            }
 
-            
-    @media(min-width: 992px) {
+   @media(min-width: 992px) {
     .center-form {
         padding-top: 30px;
         min-height: 240px;
