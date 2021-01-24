@@ -84,7 +84,7 @@ padding-left: 1000px;
     .social-links-header :hover {
 color: rgb(214, 209, 209);
     }
-/*---Play track -- buy track --video----*/
+/*---Play track----*/
 section {
     position: relative;
     padding-bottom: 50px;
@@ -114,7 +114,7 @@ section {
   display: inline-block;
 }
 
-.container .box .imgbox1 {
+.container .box .imgbox1  {
     position: relative;
     overflow: hidden;
 }
@@ -136,8 +136,11 @@ transform: scale(1.2);
     height: 5px;
     left: -60px;
     right: 10px;
-   
-}
+   }
+/*---buy track----*/
+
+
+/*-- --video----*/
 
   @media(min-width: 992px) {
     .center-form {
