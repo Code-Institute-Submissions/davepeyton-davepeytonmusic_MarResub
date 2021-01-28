@@ -60,7 +60,7 @@
 
 .logo {
     position: absolute;
-    padding-left: 15px;
+    padding-right: 150px;
     background-repeat: no-repeat;
     width: 200x;
     height: 200x;
@@ -119,55 +119,43 @@ h4 {
 
 /*--dropdown page menu --div--*/
 
-.dropmenu {
-    position: absolute;
-    height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    letter-spacing: 10px;
-    text-emphasis-color: black;
-    font-size: 20px;
-    left: 70%;
-    margin-bottom: 150px;
+.dropdow {
+    position: relative;
+    display: inline-block;
+    z-index: 10;
 }
 
 
-/*---menu list = ul----*/
+/*---menu list----*/
 
-button {
-    margin-bottom: 115px;
+.dropdown-hover {
+    display: inline-block;
+    padding: 10px;
+    background: #af8710;
+    color: white;
+    cursor: pointer;
+    border: none;
 }
 
-.menulist {
+.dropdown-hover:hover {
+    background: red;
+}
+
+.dropdown-menu {
     position: absolute;
-    list-style: none;
-    margin-top: -100px;
-    opacity: 0;
-    transform: translateY(10px);
-    transition: all 0.4s ease;
+    display: none;
+    min-width: 200px;
+    background: white;
+    color: #af8710;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 3);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 
 /*---drop menu li background color----*/
-
-li {
-    background: rgb(201, 198, 198);
-    border-radius: 20px;
-    pointer-events: visible;
-}
-
-.home:hover {
-    color: rgb(116, 4, 4);
-    text-decoration: underline;
-    pointer-events: painted;
-}
-
-button:focus+ul {
-    opacity: 1;
-    pointer-events: all;
-    transform: translateY(-10px);
-}
 
 .social-links-header :hover {
     color: rgb(214, 209, 209);
