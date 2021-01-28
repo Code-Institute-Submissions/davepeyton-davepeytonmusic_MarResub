@@ -5,13 +5,17 @@
     border: none
 }
 
+.wrapper {
+    width: 100%;
+}
+
 .cover {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding-left: 70px;
     width: 80%;
-    height: 800%;
+    height: 100%;
     display: block;
     position: relative;
     animation-name: myanimation;
@@ -22,11 +26,36 @@
 }
 
 @keyframes myanimation {
-    0% {background-color: darkgoldenrod; left: 0px; top:0px; border-radius: 0 0 0 0;}
-     25% {background-color: rgb(110, 81, 6); left: 300px; top:0px; border-radius:50% 0 0 0; }
-      50% {background-color: rgb(128, 128, 15); left: 300px; top:300px; border-radius:50% 50% 0 0;}
-       75% {background-color: rgb(92, 91, 88); left: 0px; top:300px; border-radius:50% 50% 50% 0;}
-        100% {background-color: rgb(235, 215, 215); left: 0px; top:0px; border-radius:50% 50% 50% 50%;}
+    0% {
+        background-color: darkgoldenrod;
+        left: 0px;
+        top: 0px;
+        border-radius: 0 0 0 0;
+    }
+    25% {
+        background-color: rgb(110, 81, 6);
+        left: 300px;
+        top: 0px;
+        border-radius: 50% 0 0 0;
+    }
+    50% {
+        background-color: rgb(128, 128, 15);
+        left: 300px;
+        top: 300px;
+        border-radius: 50% 50% 0 0;
+    }
+    75% {
+        background-color: rgb(92, 91, 88);
+        left: 0px;
+        top: 300px;
+        border-radius: 50% 50% 50% 0;
+    }
+    100% {
+        background-color: rgb(235, 215, 215);
+        left: 0px;
+        top: 0px;
+        border-radius: 50% 50% 50% 50%;
+    }
 }
 
 .logo {
@@ -37,55 +66,121 @@
     height: 200x;
 }
 
-
 .check-out-single :hover {
-   color: rgb(139, 102, 2);
+    color: rgb(139, 102, 2);
 }
 
 .baby.come.on {
-position: relative;
-padding-left: 1000px;
+    position: relative;
+    padding-left: 1000px;
 }
 
 .cover {
     position: relative;
     left: 80px;
-    }
+}
 
 .welcome-header {
     background-color: rgb(199, 198, 198);
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 25px; 
+    font-size: 25px;
+    margin-top: 0px;
 }
 
- .social-links-header{
+h4 {
     position: absolute;
-    letter-spacing: 15px;
+    padding-top: 15px;
+}
+
+.social-links-header {
+    position: relative;
+    letter-spacing: 10px;
     text-emphasis-color: black;
     font-size: 18px;
-    left: 35%;
-    top: 0.2%;
-    }
+    padding-left: 180px;
+    padding-right: 170px;
+    padding-top: 16px;
+    padding-bottom: 0px;
+}
 
+
+/*--page menu--
 .page-menu {
     position: absolute;
     letter-spacing: 20px;
     text-emphasis-color: black;
-    font-size: 20px;
+    font-size: 10px;
     left: 90%;
     top: 1.5px;
-    }
+}
+--*/
 
-    .page-menu :hover {
-        color: red;
-    }
-  
-    .social-links-header :hover {
-color: rgb(214, 209, 209);
-    }
+
+/*--dropdown page menu --div--*/
+
+.dropmenu {
+    position: absolute;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 10px;
+    text-emphasis-color: black;
+    font-size: 20px;
+    left: 70%;
+    margin-bottom: 150px;
+}
+
+
+/*---menu list = ul----*/
+
+button {
+    margin-bottom: 115px;
+}
+
+.menulist {
+    position: absolute;
+    list-style: none;
+    margin-top: -100px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.4s ease;
+}
+
+
+/*---drop menu li background color----*/
+
+li {
+    background: rgb(201, 198, 198);
+    border-radius: 20px;
+    pointer-events: visible;
+}
+
+.home:hover {
+    color: rgb(116, 4, 4);
+    text-decoration: underline;
+    pointer-events: painted;
+}
+
+button:focus+ul {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(-10px);
+}
+
+.social-links-header :hover {
+    color: rgb(214, 209, 209);
+}
+
+.email {
+    outline: #747171;
+}
+
+
 /*---Play track----*/
-section {
+
+.music {
     position: relative;
     padding-bottom: 50px;
     border-radius: 10px;
@@ -105,29 +200,28 @@ section {
 }
 
 .container .box {
-  position: relative;
-  width: 300px;
-  height: 200px;
-  background: #ff0;
-  margin: 20px;
-  box-sizing: border-box;
-  display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: #af8710;
+    margin: 20px;
+    box-sizing: border-box;
+    display: inline-block;
 }
 
-.container .box .imgbox1  {
+.container .box .imgbox1 {
     position: relative;
     overflow: hidden;
 }
 
 .container .box .imgbox1 img {
-max-width: 100%;
-transition: transform 2s;
+    max-width: 100%;
+    transition: transform 2s;
 }
 
 .container .box:hover .imgbox1 img {
-transform: scale(1.2);
+    transform: scale(1.2);
 }
-
 
 .audioplayer {
     position: relative;
@@ -136,14 +230,16 @@ transform: scale(1.2);
     height: 5px;
     left: -60px;
     right: 10px;
-   }
+}
+
+
 /*---buy track----*/
 
 
 /*-- --video----*/
 
-  @media(min-width: 992px) {
-    .center-form {
+@media(min-width: 992px) {
+    .email {
         padding-top: 30px;
         min-height: 240px;
         margin: 0 auto;
