@@ -11,30 +11,17 @@
    
     <title>Dave Peyton Music</title>
 </head>
-    
+    <div class="wrapper">
 <body>  
  <nav>
    <!---->
      <div class="welcome-header">
                 <h4>Welcome</h4>
-</div>
-  <div class="dropmenu">
-      <nav class="sitepages">
-     <button>Menu</button>
 
-<ul class="menulist">
-    <li class="home"><a href="home.html" target="_blank"><i></i>Home</a></li>
-      <li class="bio"><a href="bio.html" target="_blank"><i></i>Bio</a></li>
-       <li class="contact"><a href="contact.html" target="_blank"><i></i>Contact</a></li>
-</ul>
-
-</nav> 
-</div> 
- 
-              <div class="social-links-header">
+                 <div class="social-links-header">
                 <script src="https://kit.fontawesome.com/0b03df3f07.js" crossorigin="anonymous"></script>
            <nav>
-                  <a href="https://www.facebook.com/davepeytonmusic" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.facebook.com/davepeytonsmusic" target="_blank"><i class="fab fa-facebook-f"></i></a>
                   <a href="https://www.instagram.com/davepeytonmusic" target="_blank"><i class="fab fa-instagram-square"></i></a>
                   <a href="https://soundcloud.com/davepeytonmusic/baby-come-on/s-IneLDqdQXKh" target="_blank"><i class="fab fa-soundcloud"></i></a>
                   <a href="https://twitter.com/DavePeytonMusic" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -42,41 +29,91 @@
                   <a href="https://www.youtube.com/watch?v=sJavM9nquFY" target="_blank"><i class="fab fa-youtube-square"></i></a>
             </nav>
               </div>
-             
-        
-        <div class="burger">
-            <nav>
-              <div class="link1"></div>
-              <div class="link2"></div>
-              <div class="link3"></div>
-           </nav>
-        </div>
+                  </div>
 
-        <div class="logo-img">
+       <nav class="menu-nav">
+               <div class="nav-logo">
+                  <h5></h5>
+                </div>
+             <ul class="nav-links">
+               <li><a href="index.html" target="_blank"><i></i>Home</a></li>
+               <li><a href="bio.html" target="_blank"><i></i>Bio</a></li>
+               <li><a href="contact.html" target="_blank"><i></i>Contact</a></li>
+            </ul>
+               <div class="burger">
+                   <div class="line1"></div>
+                   <div class="line2"></div>
+                   <div class="line3"></div>
+                      
+                </div>
+       </nav>
+ 
+             <script class="logo2" src="/assets/css/style.css"></script>
             <img class="logo" src="assets/images/logo.png" alt="logo">
-            </div>
-            <div class="bg-img">
             <img class="cover" src="assets/images/cover.png" alt="cover">
+
+             <div class="bio">
+                    <form class="contact">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            
+           <div class="check-out-single">
+                <h1>Check out my New Single</h1>
             </div>
             
-            <div class="lpv">
-            <div class="introduction">
-              <div class="intro-text">
-                <h1>Check out my New Single</h1><br>
+            <section class="music">
+                <!--Play song-->
+            <div class="baby-come-on">
                 <p>[Baby Come On]</p>
+            </div>
 
-                <div class="cta">
-<a href="https://soundcloud.com/davepeytonmusic/baby-come-on/s-IneLDqdQXKh" target="_blank"><button class="cta-listen">Listen </button>
-
-  <a href="https://distrokid.com/hyperfollow/davepeyton/baby-come-on" target="_blank"><button class="cta-pre">Pre Order </button> 
-    <a href="https://www.youtube.com/watch?v=sJavM9nquFY" target="_blank"><button class="cta-pre">Video </button> 
-                    
+            
+                 <div class="container">
+                <div class="box">
+                    <div class="imgbox1"><img src="assets/images/cover.png"></div>
+                     <div class="details"><div class="content">
+                         <div class="audioplayer">
+                         <audio controls loop class="play">
+                         <source src="assets/audio/01 - Dave Peyton - Baby Come On.mp3" type="audio/mpeg">
+                     </audio>
+                     </div>
+                     </div>
                 </div>
-              </div> 
-
-             
-<footer>
-                    
-          </footer>
-</body>
+             </div>
+             <!--BUY NOW-->
+                 <div class="box">
+                     <div class="imgbox1">
+                        <a href="https://distrokid.com/hyperfollow/davepeyton/baby-come-on" target="_blank">
+                            <img src="assets/images/buy.png"></a></div>
+                     <div class="details"><div class="content">
+                </div>
+            </div>
+         </div>
+                    <!--Video-->
+                  <div class="box">
+                       <div class="imgbox1"><iframe width="215" height="215" src="https://www.youtube.com/embed/sJavM9nquFY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                     <div class="details"><div class="content">
+                         <div class="audioplayer">
+                        
+                     </div>
+                     </div>
+                </div>
+                  </div>
+         </section>
+   <footer>
+    </footer>
+    <script src="app.js"></script>
+   </body>
+   </div>
 </html>
