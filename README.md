@@ -15,10 +15,12 @@
  ### To be honest, I have found every aspect of building this site to be challenging. From writing basic html, page layouts, linking internal and external pages, positioning using css, fixing broken links, css code not working the way you envisioned. I even encountered issues When trying to commit files from gitpod to github. I spent alot of my time debugging error messages. Getting the site to this stage of development has been extremely challenging for me, but it has been very rewarding also, especially when you see the fruits of your labour .  
  <br>
 
- # -Testing-
+ # -Testing with css & html code Validator-
  <br>
-![]()
- ###  
+
+![CSS code Validator](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/css%20validator.png)
+ 
+ ###  As you can see initially I had 7 errors that needed fixing. I fix all of them apart for line 26- Animation-delay. I tried alternative values but they all gave an error , so I let it as is. 
 
  <br>
 
