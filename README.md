@@ -2,17 +2,24 @@
 
 <br>
 
-# - Tools Used - 
+# - Tools/Languages Used - 
 
 <br>
 
-### This is a responsive website. I designed this site using html and css. I utilised these tools to the best of my coding knowledge to date. I aplied animation effects and styling to help the page come to life and make the UX more enjoyable.
+###  HTML5- CSS3- This is a responsive website. I designed this site using html and css. I utilised these tools to the best of my coding knowledge to date. I aplied animation effects and styling to help the page come to life and make the UX more enjoyable.
 <br>
 
 # - Issues I encountered -
 <br>
 
  ### To be honest, I have found every aspect of building this site to be challenging. From writing basic html, page layouts, linking internal and external pages, positioning using css, fixing broken links, css code not working the way you envisioned. I even encountered issues When trying to commit files from gitpod to github. I spent alot of my time debugging error messages. Getting the site to this stage of development has been extremely challenging for me, but it has been very rewarding also, especially when you see the fruits of your labour .  
+ <br>
+
+ # -Testing-
+ <br>
+![]()
+ ###  
+
  <br>
 
 # - Site Content -
@@ -37,7 +44,29 @@
  <br>
  <br>
 
+# Frameworks, Libraries & Programs Used
+<br>
 
+### Bootstrap 4.4.1:
+- ### Bootstrap was used to assist with the responsiveness and styling of the website.
+- ### Hover.css:
+- ### Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+- ### Google Fonts:
+ - ### Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+- ### Font Awesome:
+- ### Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+ - ### jQuery:
+- ### jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+- ### Git
+- ### Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+ - ### GitHub:
+ - ### GitHub is used to store the projects code after being pushed from Git.
+- ### Photoshop:
+- ### Photoshop was used to create the logo, resizing images and editing photos for the website.
+- ### Balsamiq:
+- ### Balsamiq was used to create the wireframes during the design process.
+
+<br> 
 
 # Check Out some of my links below!
 Links:
