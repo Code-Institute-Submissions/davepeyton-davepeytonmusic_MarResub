@@ -6,7 +6,7 @@
 
 <br>
 
-### I designed this site using html and css. I utilised these tools to the best of my coding knowledge to date. I aplied animation effects and styling to help the page come to life and make the UX more enjoyable.
+### This is a responsive website. I designed this site using html and css. I utilised these tools to the best of my coding knowledge to date. I aplied animation effects and styling to help the page come to life and make the UX more enjoyable.
 <br>
 
 # - Issues I encountered -
