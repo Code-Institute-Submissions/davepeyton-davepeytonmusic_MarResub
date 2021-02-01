@@ -12,7 +12,7 @@
 # - Issues I encountered -
 <br>
 
- ### Where do I start! . To be honest , I found every aspect of building this site  to be challenging. From page layout, to writing basic html and linking internal and external pages, positioning and using css, linking broken links, css code not working the way you envisioned it to do so. Getting the site to this stage of development have been challenging on every aspect, but it has been very rewarding also , especially when you see the fruits of your labour .  
+ ### To be honest, I found every aspect of building this site  to be challenging. From page layout, to writing basic html and linking internal and external pages, positioning and using css, linking broken links, css code not working the way you envisioned it to do so. Getting the site to this stage of development have been challenging on every aspect, but it has been very rewarding also, especially when you see the fruits of your labour .  
  
 
  <br>
