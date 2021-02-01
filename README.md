@@ -12,7 +12,7 @@
 # - Issues I encountered -
 <br>
 
- ### To be honest, I found every aspect of building this site to be challenging regarding. From page layout, to writing basic html and linking internal and external pages, positioning and using css, linking broken links, css code not working the way you envisioned it to do so. I encountered issues when writing the html and css. When committing files from gitpod I would occasionally get error message that I would have to debug. Getting the site to this stage of development have been challenging on every aspect, but it has been very rewarding also, especially when you see the fruits of your labour .  
+ ### To be honest, I found every aspect of building this site to be challenging. From writing basic html page layouts to linking internal and external pages, positioning and using css, broken links, css code not working the way you envisioned. I even encountered issues When trying to commit files from gitpod to github. I spent alot of my time debugging error message. Getting the site to this stage of development have been challenging on every aspect, but it has been very rewarding also, especially when you see the fruits of your labour .  
  <br>
 
 # - Site Content -
