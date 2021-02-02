@@ -159,13 +159,13 @@ body {
 
 .logo {
     position: relative;
-    padding-top: -300;
+    padding-top: 0;
     padding-right: 0;
     padding-top: 0;
     padding-bottom: 0px;
     background-repeat: no-repeat;
-    width: 200x;
-    height: 200x;
+    width: auto;
+    height: auto;
 }
 
 @media screen and (max-width:375px) {
@@ -231,19 +231,6 @@ h4 {
     }
 }
 
-
-/*--
-.bio-box {
-    position: relative;
-    text-align: center;
-    min-height: 50vh;
-    width: auto;
-    border-radius: 50px;
-    box-shadow: 0px 0px 10px 2px;
-    border: 5px solid rgb(129, 128, 128);
-}
--*/
-
 .text p {
     color: rgb(212, 212, 212);
     display: flex;
@@ -271,10 +258,6 @@ h4 {
 
 h2 {
     padding-left: 150px;
-}
-
-. .email {
-    outline: #747171;
 }
 
 
@@ -348,9 +331,9 @@ h2 {
 @media screen and (max-width:500px) {
     audio {
         opacity: 1;
-        padding-top: -20px;
+        padding-top: 0px;
         padding-left: 50px;
-        padding-bottom: -10px;
+        padding-bottom: 0px;
         display: inline-flex;
     }
 }
@@ -359,7 +342,7 @@ h2 {
     .container .box {
         max-width: 62%;
         opacity: 1;
-        padding: 10 0 10 100;
+        padding: 10px 0px 10px 100px;
         background: #020101;
         flex-direction: row;
         align-items: center;
