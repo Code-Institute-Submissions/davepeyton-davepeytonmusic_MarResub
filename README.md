@@ -9,7 +9,25 @@
 ###  HTML5- CSS3- This is a responsive website. I designed this site using html and css. I utilised these tools to the best of my coding knowledge to date. I aplied animation effects and styling to help the page come to life and make the UX more enjoyable.
 <br>
 
-# Frameworks, Libraries & Programs Used
+# Wireframe 1-Full Screen
+![Full Screen](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/full%20view%20wireframe.png)
+<br>
+
+# Wireframe 2-Ipad Screen
+
+ ![Ipad Screen](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/ipad%20view%20wireframe.png)
+ <br>
+
+
+<br>
+
+ # Wireframe 3-Smart Phone Screen
+
+ ![Smart Phone Screen](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/smart%20phone%20view%20wireframe.png)
+
+ <br>
+
+ # Frameworks, Libraries & Programs Used
 <br>
 
 ### Bootstrap 4.4.1:
