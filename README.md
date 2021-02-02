@@ -71,6 +71,10 @@
 ###  As you can see above I fixed most of the issues . I decided to leave the animation values as is. Any videos i've watched apply the same method that I have used. Plus, the animation runs how I want it to run!..
 <br>
 
+![]()
+
+### I know there are still some errors but there were 16 to begin with. The remaining errors dont effect the code. 
+<br>
 # - Site Content -
 <br>
 
