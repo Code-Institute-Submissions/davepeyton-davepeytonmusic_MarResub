@@ -59,6 +59,9 @@
 
  # -Testing with css & html code Validator-
  <br>
+ 
+ #  CSS
+
 
 ![CSS code Validator](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/css%20validator.png)
  
@@ -70,11 +73,17 @@
 
 ###  As you can see above I fixed most of the issues . I decided to leave the animation values as is. Any videos i've watched apply the same method that I have used. Plus, the animation runs how I want it to run!..
 <br>
+ 
+ # HTML
+ 
+ ![ html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/html%20val%20errors%201%20to%206.png)
 
-![]()
+  ![html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/html%20val%20errors%207%20to%208.png)
+  <br>
 
-### I know there are still some errors but there were 16 to begin with. The remaining errors dont effect the code. 
+### I know there are still some errors in my html. There were 16 to begin with and I fixed 8. <br> The remaining errors do not effect the code negatively. <br> However, I made the mistake (ROOKIE MISTAKE) of not validating my code as I was writing. I will get around to validation all the code when I become more competent & confident in my role as a software developer!.
 <br>
+
 # - Site Content -
 <br>
 
