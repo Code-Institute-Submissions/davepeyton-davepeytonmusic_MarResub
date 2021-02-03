@@ -170,13 +170,12 @@ body {
 
 @media screen and (max-width:375px) {
     .logo {
-        position: absolute;
-        width: auto;
-        height: auto;
-        padding-top: 50px;
+        width: 250px;
+        height: 200px;
+        padding-top: 10px;
         top: 0vh;
         display: flex;
-        border-radius: 50%;
+        border-radius: 35%;
     }
 }
 
@@ -212,6 +211,7 @@ h4 {
     padding-right: 0px;
     padding-top: 16px;
     padding-bottom: 0px;
+    letter-spacing: 5px;
 }
 
 
@@ -222,12 +222,14 @@ h4 {
 }
 
 @media screen and (max-width:375px) {
-    .social-links-header {
+    .social-links-header a {
         opacity: 1;
-        padding-left: 200px;
-        position: relative;
-        display: flex;
-        flex-direction: row-reverse;
+        display: inline-block;
+        justify-content: center;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 10px;
+        letter-spacing: 10px;
     }
 }
 
