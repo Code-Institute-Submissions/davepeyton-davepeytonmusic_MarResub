@@ -273,6 +273,18 @@ h2 {
     font-family: sans-serif;
 }
 
+@media screen and (max-width:375px) {
+    .music .container .box {
+        opacity: 1;
+        position: relative;
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .container {
     position: relative;
     width: 800px;
@@ -337,16 +349,5 @@ h2 {
         padding-left: 50px;
         padding-bottom: 0px;
         display: inline-flex;
-    }
-}
-
-@media screen and (max-width:375px) {
-    .container .box {
-        max-width: 62%;
-        opacity: 1;
-        padding: 10px 0px 10px 100px;
-        background: #020101;
-        flex-direction: row;
-        align-items: center;
     }
 }
