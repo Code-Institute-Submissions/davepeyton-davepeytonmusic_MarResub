@@ -47,13 +47,12 @@ body {
     animation-direction: alternate;
 }
 
-@media screen and (max-width: 375px) {
+@media all and (max-width: 450px) {
     .bio-cover {
-        opacity: 1;
-        width: auto;
-        height: auto;
-        float: right;
-        border-radius: 30%;
+      flex: inherit;
+      place-items: center;
+      width: 200px;
+      height: 500px;
     }
 }
 
@@ -90,7 +89,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media all and (max-width: 1024px) {
     .cover {
         padding-right: 100px;
         align-items: center;
@@ -136,14 +135,14 @@ body {
     font-size: 16px;
 }
 
-@media screen and (max-width: 1024px) {
+@media all and (max-width: 1024px) {
     .nav-links {
         width: 60%;
         letter-spacing: 10px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media all and (max-width:768px) {
     .nav-links {
         position: absolute;
         width: auto;
@@ -158,6 +157,19 @@ body {
     }
 }
 
+@media all and (max-width:768px) {
+    .anti-social-links {
+       opacity: 1;
+        display: inline-block;
+        justify-content: center;
+        font-weight: 10px;
+        padding-top: 45px;
+        padding-left: 30px;
+        padding-right: 0px;
+        letter-spacing: 0px;
+    }
+}
+
 .logo {
     position: relative;
     padding-top: 0;
@@ -169,7 +181,7 @@ body {
     height: auto;
 }
 
-@media screen and (max-width:375px) {
+@media all and (max-width:450px) {
     .logo {
         width: 250px;
         height: 200px;
@@ -191,7 +203,11 @@ h2 {
     color: #a39f9f;
 }
 
-
+@media all and (max-width:450px) {
+    h1 {
+        font-size: 5px;
+    }
+}
 
 .check-out-single :hover {
     color: rgb(110, 6, 6);
@@ -235,15 +251,16 @@ h4 {
     color: rgb(214, 209, 209);
 }
 
-@media screen and (max-width:375px) {
+@media all and (max-width:450px) {
     .social-links-header a {
         opacity: 1;
-        display: inline-block;
+        display: inline-table;
         justify-content: center;
-        padding-top: 50px;
-        padding-left: 50px;
-        padding-right: 10px;
-        letter-spacing: 10px;
+        font-weight: 10px;
+        padding-top: 45px;
+        padding-left: 30px;
+        padding-right: 0px;
+        letter-spacing: 0px;
     }
 }
 
@@ -259,12 +276,11 @@ h4 {
     width: 85vw;
 }
 
-@media screen and (max-width:375px) {
+@media all and (max-width:450px) {
     .text p {
         opacity: 1;
         margin-right: 0;
-        margin-bottom: 0;
-        margin-left: 200px;
+        margin-bottom: 0;  
     }
 }
 
@@ -287,8 +303,8 @@ h2 {
     font-family: sans-serif;
 }
 
-@media screen and (max-width:375px) {
-    .music .container .box {
+@media all and (max-width:450px) {
+    .music .box {
         opacity: 1;
         position: relative;
         width: auto;
@@ -308,6 +324,26 @@ h2 {
     margin: 0px auto 0;
     display: flex;
     flex-direction: row;
+}
+
+@media all and (max-width:450px) {
+    .container {
+        opacity: 1;
+        position: relative;
+        width: 200px;
+        height: 600px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media all and (max-width:450px) {
+    .baby-come-on {
+        position: absolute;
+        z-index: auto;
+        
+    }
 }
 
 .container .box {
@@ -343,7 +379,7 @@ h2 {
     right: 10px;
 }
 
-@media screen and (max-width:500px) {
+@media all and (max-width:450px) {
     .container {
         opacity: 1;
         width: auto;
@@ -356,12 +392,19 @@ h2 {
     }
 }
 
-@media screen and (max-width:500px) {
+@media all and (max-width:450px) {
     audio {
         opacity: 1;
         padding-top: 0px;
         padding-left: 50px;
         padding-bottom: 0px;
-        display: inline-flex;
+        display: block;
     }
+/*
+ @media all and (min-width:375px) {
+    body {
+        box-flex: center;
+    }
+
 }
+*/
