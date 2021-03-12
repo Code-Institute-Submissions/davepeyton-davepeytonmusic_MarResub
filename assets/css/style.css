@@ -14,22 +14,30 @@ body {
   
 }
 
-.cover {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: -0px;
-    padding-left: 70px;
-    width: 80%;
-    height: 100%;
-    display: block;
-    position: relative;
-    animation-name: myanimation;
-    border-radius: 20%;
-    animation-duration: 2s;
-    animation-iteration-count: 4s;
-    animation-delay: 1s;
-    animation-direction: alternate;
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+.imgbox1 {
+    width: 100%;
+    height: auto;
 }
 
 .bio-cover {
@@ -56,6 +64,24 @@ body {
     }
 }
 
+
+
+.cover {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    animation-name: myanimation;
+    border-radius: 1%;
+    animation-duration: 2s;
+    animation-iteration-count: 4s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
 @keyframes myanimation {
     0% {
         background-color: rgb(255, 255, 255);
@@ -65,20 +91,20 @@ body {
     }
     25% {
         background-color: rgb(255, 181, 9);
-        left: 300px;
+        left: 30px;
         top: 0px;
         border-radius: 50% 0 0 0;
     }
     50% {
         background-color: rgb(0, 0, 0);
-        left: 300px;
-        top: 300px;
+        left: 30px;
+        top: 30px;
         border-radius: 50% 50% 0 0;
     }
     75% {
         background-color: rgb(255, 255, 255);
         left: 0px;
-        top: 300px;
+        top: 30px;
         border-radius: 50% 50% 50% 0;
     }
     100% {
@@ -88,15 +114,15 @@ body {
         border-radius: 50% 50% 50% 50%;
     }
 }
-
+/*
 @media all and (max-width: 1024px) {
     .cover {
-        padding-right: 100px;
-        align-items: center;
+padding-top: 50px;
+align-items: center;
         border-radius: 40%;
     }
 }
-
+*/
 .menu-nav .current {
     color: rgb(255, 0, 0);
 }
@@ -133,6 +159,12 @@ body {
     letter-spacing: 5px;
     font-weight: bold;
     font-size: 16px;
+}
+
+.copyright {
+    color: #fffbff;
+    text-align: center;
+    font-size: 12px;
 }
 
 @media all and (max-width: 1024px) {
@@ -209,9 +241,12 @@ h2 {
     }
 }
 
-.check-out-single :hover {
-    color: rgb(110, 6, 6);
+.check-out-single {
+margin: 50px;
+padding: 10px;
+text-align: center;
 }
+
 
 .baby.come.on {
     position: relative;
@@ -307,28 +342,7 @@ h2 {
     }
 }
 
-.container {
-    position: relative;
-    width: 800px;
-    min-width: 5px;
-    border-radius: 10px;
-    background: rgb(39, 17, 17);
-    margin: 0px auto 0;
-    display: flex;
-    flex-direction: row;
-}
 
-@media all and (max-width:450px) {
-    .container {
-        opacity: 1;
-        position: relative;
-        width: 200px;
-        height: 600px;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-}
 
 @media all and (max-width:450px) {
     .baby-come-on {
@@ -338,29 +352,8 @@ h2 {
     }
 }
 
-.container .box {
-    position: relative;
-    width: 300px;
-    height: 200px;
-    background: #570101;
-    margin: 20px;
-    box-sizing: border-box;
-    display: inline-block;
-}
 
-.container .box .imgbox1 {
-    position: relative;
-    overflow: hidden;
-}
 
-.container .box .imgbox1 img {
-    max-width: 100%;
-    transition: 2s;
-}
-
-.container .box:hover .imgbox1 img {
-    transform: scale(1.2);
-}
 
 .audioplayer {
     position: absolute;
@@ -371,18 +364,6 @@ h2 {
     right: 10px;
 }
 
-@media all and (max-width:450px) {
-    .container {
-        opacity: 1;
-        width: auto;
-        height: 120vh;
-        top: 0vh;
-        background-color: #130f0f;
-        display: grid;
-        flex-direction: column;
-        align-items: center;
-    }
-}
 
 @media all and (max-width:450px) {
     audio {
