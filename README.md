@@ -1,4 +1,7 @@
-# Dave Peyton "Music"
+# Dave Peyton "Music" INTRODUCTION!.<br>
+### My intension was to kill two birds with one stone with the development of this site . 
+### 1: My first milestone project for code institute.
+### 2: I needed a website to advertise my music/Gigs/videos and to help generate new listeners/fans.
 
 <br>
 
@@ -94,9 +97,7 @@
 
  <br>
 
-### My intension was to kill two birds with one stone with the development of this site . 
-### 1: My first milestone project for code institute.
-### 2: I needed a website to advertise my music/Gigs/videos and to help generate new listeners/fans.
+
  <br>
  
 # - My Goal -

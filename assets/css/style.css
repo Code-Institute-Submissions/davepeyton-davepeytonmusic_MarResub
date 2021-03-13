@@ -9,6 +9,10 @@ body {
     background-color: #000000;
 }
 
+.navbar {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .logo-bio {
     position: relative;
   
@@ -20,13 +24,15 @@ body {
     padding-bottom: 0px;
     padding-top: 10px;
 }
-
+/*
 .container {
-width: 100%; height: auto; 
+width: 100%; 
+height: auto; 
 float: none;
  clear: both; 
  margin: 2px auto;
 }
+*/
 /* Make columns equal sized */
 .column-left{ float: left; width: 33.333%;}
 .column-right{ float: right; width: 33.333%;}
@@ -67,17 +73,17 @@ float: none;
     animation-direction: alternate;
 }
 
-
+.cover {
+     background-size: cover;
+    align-items: center;
+    background-repeat: no-repeat;
+    padding-top:100px;
+    width: 70%;
+    height: auto;
+    position: relative;
+}
 
 .cover {
-
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 10px;
-    width: 100%;
-    height: auto;
-    display: block;
-    position: relative;
     animation-name: myanimation;
     border-radius: 1%;
     animation-duration: 2s;
@@ -130,8 +136,8 @@ float: none;
     padding-right: 0;
     padding-top: 0;
     padding-bottom: 0px;
-    background-repeat: no-repeat;
-    width: auto;
+ 
+    width: 100%;
     height: auto;
 }
 
