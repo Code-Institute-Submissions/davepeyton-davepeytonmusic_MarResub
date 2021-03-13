@@ -75,12 +75,14 @@ float: none;
 
 .cover {
      background-size: cover;
-    align-items: center;
+   
     background-repeat: no-repeat;
-    padding-top:100px;
-    width: 70%;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
     height: auto;
     position: relative;
+    z-index: inherit;
 }
 
 .cover {
@@ -206,13 +208,8 @@ h2 {
 
 /*---Play track----*/
 
-.music {
-    position: relative;
-    padding-bottom: 50px;
-    border-radius: 10px;
-    background: #262626;
-    font-family: sans-serif;
-}
+
+
 .audioplayer {
     position: absolute;
     padding-bottom: 100px;
@@ -223,7 +220,7 @@ h2 {
 }
 /*footer styling*/
 .footer {
-  padding: 0;
+  
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -239,4 +236,14 @@ h2 {
   color: white;
 }
 
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
 
+@media screen and (max-width: 700px) {
+  .container .column-left .column-center .column-right {
+    flex-direction: column;
+  }
+}
