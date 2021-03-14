@@ -13,26 +13,11 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.logo-bio {
-    position: relative;
-  
-}
+
 /* Container Div with 3 columns (audio,buy and video) */
 
-.nav-links {
-    text-align: center;
-    padding-bottom: 0px;
-    padding-top: 10px;
-}
-/*
-.container {
-width: 100%; 
-height: auto; 
-float: none;
- clear: both; 
- margin: 2px auto;
-}
-*/
+
+
 /* Make columns equal sized */
 .column-left{ float: left; width: 33.333%;}
 .column-right{ float: right; width: 33.333%;}
@@ -76,7 +61,7 @@ float: none;
 .cover {
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 0;
+    padding-top: 10%;
     padding-bottom: 0;
     width: 100%;
     height: auto;
@@ -89,6 +74,8 @@ float: none;
     animation-delay: 1s;
     animation-direction: alternate;
 }
+
+
 
 
 @keyframes myanimation {
@@ -234,168 +221,14 @@ h2 {
   color: white;
 }
 
-@media screen and (max-width: 1200px) {
-  .container {
-    width: 100%;
-  }
-}
 
 
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    .container {
-        width: 60px;
-        height: 60px;
-        font-size: 32px;
-        line-height: 60px;
-        border-radius: 22px;
-    }
-    .about-us-box-text {
-        padding-right: 0;
-    }
-}
 
-@media (min-width: 768px) and (max-width: 991px) {
-   .container .column-left .column-center .column-right {
-        padding-left: 0.6rem;
-        padding-right: 0.6rem;
-    }
-    .top-content {
-        padding: 180px 0;
-    }
-    .section-description p {
-        padding: 0;
-    }
-    .services-box .services-box-icon {
-        width: 50px;
-        height: 50px;
-        font-size: 26px;
-        line-height: 50px;
-        border-radius: 18px;
-    }
-    .about-us-box {
-        margin-top: 80px;
-    }
-    .about-us-box:last-child {
-        margin-top: 50px;
-    }
-    .about-us-box-text {
-        padding-right: 0;
-        text-align: center;
-    }
-    .more-services-box .more-services-box-icon {
-        width: 50px;
-        height: 50px;
-        font-size: 26px;
-        line-height: 50px;
-        border-radius: 18px;
-    }
-    .portfolio-box h3:hover i {
-        padding-left: 10px;
-    }
-    .blog-box h3:hover i {
-        padding-left: 10px;
-    }
-}
+/***** Footer *****/
 
-@media (max-width: 767px) {
-    .navbar.navbar-no-bg {
-        background: #444;
-    }
-    .navbar-dark .navbar-toggler {
-        border-color: #444;
-    }
-    .navbar-dark .navbar-toggler:focus {
-        background: #333;
-        outline: 0;
-    }
-    .navbar-expand-md .navbar-nav .nav-link {
-        padding-top: 0.3rem;
-        padding-bottom: 0.3rem;
-    }
-    .top-content {
-        padding: 140px 0;
-    }
-    .top-content .top-big-link {
-        margin-top: 25px;
-    }
-    .top-content .top-big-link a.btn {
-        margin-top: 10px;
-    }
-    .section-description p {
-        padding: 0;
-    }
-    .services-container {
-        padding-bottom: 60px;
-    }
-    .services-box {
-        text-align: center;
-    }
-    .services-box h3 {
-        margin-top: 20px;
-        padding-top: 10px;
-    }
-    .about-us-box {
-        margin-top: 80px;
-    }
-    .about-us-box:last-child {
-        margin-top: 50px;
-    }
-    .about-us-box-text {
-        padding-right: 0;
-        text-align: center;
-    }
-    .more-services-box {
-        text-align: center;
-    }
-    .more-services-box h3 {
-        margin-top: 20px;
-        padding-top: 10px;
-    }
-    .portfolio-box {
-        text-align: center;
-    }
-    .portfolio-box-image {
-        max-width: 540px;
-        margin: 0 auto;
-    }
-    .blog-box {
-        text-align: center;
-    }
-    .blog-box-image {
-        max-width: 540px;
-        margin: 0 auto;
-    }
-    .blog-box h3 {
-        margin-top: 30px;
-    }
-    footer {
-        text-align: center;
-    }
-    .footer-right {
-        padding-top: 10px;
-        text-align: center;
-    }
-    .footer-bottom {
-        padding-top: 20px;
-    }
-}
 
-@media (max-width: 415px) {
-    h1,
-    h2 {
-        font-size: 32px;
-    }
-}
 
 
 /* Retina-ize images/icons */
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and ( min--moz-device-pixel-ratio: 2), only screen and ( -o-min-device-pixel-ratio: 2/1), only screen and ( min-device-pixel-ratio: 2), only screen and ( min-resolution: 192dpi), only screen and ( min-resolution: 2dppx) {
-    /* logo */
-    .logo {
-        background-image: url(../img/logo@2x.png) !important;
-        background-repeat: no-repeat !important;
-        background-size: 136px 39px !important;
-    }
-}
