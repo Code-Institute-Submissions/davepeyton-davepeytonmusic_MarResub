@@ -16,12 +16,25 @@ body {
 
 /* Container Div with 3 columns (audio,buy and video) */
 
-
+.container {
+    border: solid red 1px;
+    padding-top: 0;
+    padding-bottom: 450px;
+}
 
 /* Make columns equal sized */
-.column-left{ float: left; width: 33.333%;}
-.column-right{ float: right; width: 33.333%;}
-.column-center{ display: inline-block; width: 33.333%;}
+
+.column-left{ 
+padding-top: 20px;
+float: left; 
+width: 33.333%;
+}
+
+.column-right{ 
+padding-top: 90px;
+float: right; 
+width: 43.333%;
+}
 
 /* Clear floats after the columns */
 .nav-links:after {
@@ -31,17 +44,25 @@ body {
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media all and (max-width: 700px) {
 .column-left {width: 100%;}
 .column-right {width: 100%;}
-.column-center{width: 100%;}
-
 }
 
-.imgbox1 {
+@media all and (max-width: 400px) {
+.column-left {
+  width: 80%;
+  padding-left: 60px
+  }
+.column-right {
+  width: 100%;
+  padding-top: 0px
+  }
+  audio {
     width: 100%;
-    height: auto;
+  }
 }
+
 
 .bio-cover {
     position: relative;
@@ -59,7 +80,7 @@ body {
 }
 
 .cover {
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 10%;
     padding-bottom: 0;
