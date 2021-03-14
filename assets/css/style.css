@@ -195,20 +195,93 @@ width: 43.333%;
 
 
 
-.bio-cover {
-    position: relative;
-    padding-top: 10%;
-    left: 80px;
-    right: 0;
+
+
+.bio-img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    padding-bottom: 0;
     width: 100%;
     height: auto;
+    position: relative;
+    z-index: inherit;
     animation-name: myanimation;
-    border-radius: 20%;
+    border-radius: 1%;
     animation-duration: 2s;
     animation-iteration-count: 4s;
     animation-delay: 1s;
     animation-direction: alternate;
 }
+
+
+@media all and (max-width: 1500px) {
+ .bio-img {
+
+  padding-top: 5%;
+  padding-left: 0;
+  }
+}
+
+@media all and (max-width: 768px) {
+ .bio-img {
+
+  padding-top: 10%;
+  padding-left: 0;
+  }
+}
+
+@media all and (max-width: 540px) {
+ .bio-img {
+
+  padding-top: 23%;
+  padding-left: 0;
+  }
+}
+
+@media all and (max-width: 414px) {
+ .bio-img {
+
+  padding-top: 30%;
+  padding-left: 0;
+  }
+}
+
+@media all and (max-width: 411px) {
+ .bio-img {
+
+  padding-top: 33%;
+  padding-left: 0;
+  }
+}
+
+
+@media all and (max-width: 360px) {
+ .bio-img {
+
+  padding-top: 35%;
+  padding-left: 0;
+  }
+}
+
+
+@media all and (max-width: 320px) {
+ .bio-img {
+
+  padding-top: 45%;
+  padding-left: 0;
+  }
+}
+
+
+@media all and (max-width: 280px) {
+ .bio-img {
+
+  padding-top: 48%;
+  padding-left: 0;
+  }
+}
+
 
 
 .cover {
