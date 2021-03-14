@@ -17,9 +17,8 @@ body {
 /* Container Div with 3 columns (audio,buy and video) */
 
 .container {
-    border: solid red 1px;
     padding-top: 0;
-    padding-bottom: 450px;
+    padding-bottom: 550px;
 }
 
 /* Make columns equal sized */
@@ -49,19 +48,124 @@ width: 43.333%;
 .column-right {width: 100%;}
 }
 
-@media all and (max-width: 400px) {
+
+@media all and (max-width: 540px) {
 .column-left {
-  width: 80%;
-  padding-left: 60px
+  width: 75%;
+  padding-top: 0;
+  padding-left: 105px
   }
 .column-right {
   width: 100%;
+  padding-top: 0;
+  padding-bottom: 20%;
+  padding-left: 85px;
+
+  }
+  audio {
+    width: 100%;
+  }
+}
+
+
+@media all and (max-width: 414px) {
+.column-left {
+  width: 70%;
+  padding-top: initial;
+  padding-left: 90px
+  }
+.column-right {
+  width: 100%;
+  padding-left: 40px;
   padding-top: 0px
   }
   audio {
     width: 100%;
   }
 }
+
+@media all and (max-width: 411px) {
+.column-left {
+  width: 70%;
+  padding-top: 0;
+  padding-left: 90px
+  }
+.column-right {
+  width: 100%;
+  padding-left: 40px;
+  padding-top: 10px
+  }
+  audio {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 375px) {
+.column-left {
+  width: 80%;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  }
+.column-right {
+  width: 100%;
+  padding-bottom: 150px;
+  padding-left: 15px;
+  }
+  audio {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 360px) {
+.column-left {
+  width: 80%;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  }
+.column-right {
+  width: 100%;
+  padding-bottom: 120px;
+  padding-left: 10px;
+  }
+  audio {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 320px) {
+ .column-left {
+  width: 80%;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  }
+  
+.column-right {
+  width: 100%;
+  padding-bottom: 120px;
+  padding-left: 2px;
+  }
+  audio {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 280px) {
+.column-left {
+  width: 100%;
+  padding-top: initial;
+  padding-left: 0px
+  }
+.column-right {
+  width: 100%;
+  padding-right: 110%;
+  padding-top: 0px
+  }
+  audio {
+    width: 100%;
+  }
+}
+
+
 
 
 .bio-cover {
@@ -131,6 +235,8 @@ width: 43.333%;
         border-radius: 50% 50% 50% 50%;
     }
 }
+
+
 
 .copyright {
     color: #ff0000;
