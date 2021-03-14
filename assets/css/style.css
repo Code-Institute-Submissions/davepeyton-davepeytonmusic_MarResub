@@ -16,24 +16,27 @@ body {
 
 /* Container Div with 3 columns (audio,buy and video) */
 
-.container {
-    padding-top: 0;
-    padding-bottom: 550px;
+
+
+/@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Make columns equal sized */
-
-.column-left{ 
-padding-top: 20px;
-float: left; 
-width: 33.333%;
+body {
+    background-color: #000000;
 }
 
-.column-right{ 
-padding-top: 90px;
-float: right; 
-width: 43.333%;
+.navbar {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+
+/* Container Div with 3 columns (audio,buy and video) */
+
+
 
 /* Clear floats after the columns */
 .nav-links:after {
@@ -54,6 +57,16 @@ width: 43.333%;
   height:auto;
   padding-top: 10%;
   padding-bottom: 10%;
+  padding-left: 35%;
+  }
+}
+
+@media all and (max-width: 1024px) {
+.column-right {
+  width: 100%;
+  height:auto;
+  padding-top: 10%;
+  padding-bottom: 20%;
   padding-left: 35%;
   }
 }
@@ -79,17 +92,18 @@ width: 43.333%;
 .column-left {
   width: 75%;
   padding-top: 0;
+  padding-bottom: 10%;
   padding-left: 105px
   }
 .column-right {
   width: 100%;
   padding-top: 0;
   padding-bottom: 20%;
-  padding-left: 85px;
+  padding-left: 100px;
 
   }
   audio {
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -120,7 +134,7 @@ width: 43.333%;
 .column-right {
   width: 100%;
   padding-left: 40px;
-  padding-top: 40px
+  padding-bottom: 20%;
   }
   audio {
     width: 100%;
@@ -179,22 +193,25 @@ width: 43.333%;
 @media all and (max-width: 280px) {
 .column-left {
   width: 100%;
-  padding-top: initial;
-  padding-left: 0px
+  padding-top: 0;
+  padding-left: 10%
   }
+
 .column-right {
   width: 100%;
-  padding-right: 110%;
+  padding-left 0;
+  padding-right: 0;
   padding-top: 0px
   }
   audio {
     width: 100%;
+    padding-left: 10%;
   }
 }
 
 
 
-
+/* BIO IMG */
 
 
 .bio-img {
@@ -304,15 +321,29 @@ width: 43.333%;
     animation-direction: alternate;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 1500px) {
  .cover {
 
-  padding-top: 25%;
-  padding-left: 60px;
+  padding-top: 0;
+  padding-left: 0;
   }
 }
 
+@media all and (max-width: 600px) {
+ .cover {
 
+  padding-top: 15%;
+  padding-left: 0;
+  }
+}
+
+@media all and (max-width: 280px) {
+ .cover {
+
+  padding-top: 25%;
+  padding-left: 10%;
+  }
+}
 @keyframes myanimation {
     0% {
         background-color: rgb(255, 255, 255);
