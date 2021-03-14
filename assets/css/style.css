@@ -42,12 +42,38 @@ width: 43.333%;
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-@media all and (max-width: 700px) {
-.column-left {width: 100%;}
-.column-right {width: 100%;}
+/* Responsive layout - when the screen is less than 1500px wide, make the three columns stack on top of each other instead of next to each other */
+@media all and (max-width: 1500px) {
+.column-left {
+  width: 60%;
+  padding-left:40%;
+  }
+
+.column-right {
+  width: 100%;
+  height:auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 35%;
+  }
 }
 
+
+@media all and (max-width: 768px) {
+.column-left {
+  width: 80%;
+  padding-left:20%;
+  }
+
+.column-right {
+  width: 100%;
+  height:auto;
+  padding-top: 10%;
+  padding-bottom: 25%;
+  padding-left: 30%;
+  padding-right: 20%;
+  }
+}
 
 @media all and (max-width: 540px) {
 .column-left {
@@ -72,6 +98,7 @@ width: 43.333%;
 .column-left {
   width: 70%;
   padding-top: initial;
+  padding-bottom: 10%;
   padding-left: 90px
   }
 .column-right {
@@ -93,7 +120,7 @@ width: 43.333%;
 .column-right {
   width: 100%;
   padding-left: 40px;
-  padding-top: 10px
+  padding-top: 40px
   }
   audio {
     width: 100%;
@@ -170,11 +197,11 @@ width: 43.333%;
 
 .bio-cover {
     position: relative;
-    padding-top: 100px;
+    padding-top: 10%;
     left: 80px;
     right: 0;
-    width: 600px;
-    height: 1000px;
+    width: 100%;
+    height: auto;
     animation-name: myanimation;
     border-radius: 20%;
     animation-duration: 2s;
@@ -183,10 +210,11 @@ width: 43.333%;
     animation-direction: alternate;
 }
 
+
 .cover {
     background-size: contain;
     background-repeat: no-repeat;
-    padding-top: 10%;
+    padding-top: 0;
     padding-bottom: 0;
     width: 100%;
     height: auto;
@@ -200,7 +228,13 @@ width: 43.333%;
     animation-direction: alternate;
 }
 
+@media all and (max-width: 320px) {
+ .cover {
 
+  padding-top: 25%;
+  padding-left: 60px;
+  }
+}
 
 
 @keyframes myanimation {
@@ -236,10 +270,16 @@ width: 43.333%;
     }
 }
 
+.social-links {
+  color: black;
+}
 
+.social-links :hover {
+    color: rgb(214, 209, 209);
+}
 
 .copyright {
-    color: #ff0000;
+    color: #000000;
     text-align: center;
     font-size: 12px;
 }
