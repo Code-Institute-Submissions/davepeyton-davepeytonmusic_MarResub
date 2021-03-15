@@ -14,12 +14,12 @@ body {
 }
 
 .nav-links:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
- .logo {
+.logo {
     position: relative;
     width: 100%;
     height: auto;
@@ -27,7 +27,6 @@ body {
     padding-right: 0;
     padding-top: 0;
     padding-bottom: 0px;
-   
 }
 
 .bio-img {
@@ -42,9 +41,10 @@ body {
 }
 
 .cover {
+    border: solid black 20px;
     background-size: contain;
     background-repeat: no-repeat;
-    padding-top: 0;
+    margin-top: 10%;
     padding-bottom: 0;
     width: 100%;
     height: auto;
@@ -55,20 +55,19 @@ body {
 h1 {
     color: #a39f9f;
 }
+
 .title {
-    color:  #a39f9f;
+    color: #a39f9f;
 }
 
 h2 {
     color: #a39f9f;
 }
 
-
-
 .check-out-single {
-margin: 50px;
-padding: 10px;
-text-align: center;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
 }
 
 .baby-come-on {
@@ -84,6 +83,8 @@ h4 {
 
 
 /*---drop menu li background color----*/
+
+
 /*
 .social-links-header :hover {
     color: rgb(214, 209, 209);
@@ -91,7 +92,8 @@ h4 {
 
 /* BIO text */
 
-.bio-text, .text  {
+.bio-text,
+.text {
     color: rgb(212, 212, 212);
     display: flex;
     align-items: center;
@@ -103,8 +105,6 @@ h4 {
     width: 85vw;
 }
 
-
-
 .audioplayer {
     position: absolute;
     padding-bottom: 100px;
@@ -115,32 +115,34 @@ h4 {
 }
 
 .email {
-  margin-top: 20px;
-  margin-bottom: 30%;
+    margin-top: 20px;
+    margin-bottom: 30%;
 }
 
+
 /*footer styling*/
+
 .footer {
-  width: 100%;
-  height: 10%;
-  padding-top: 0px;
-  padding-bottom: 0;
+    width: 100%;
+    height: 10%;
+    padding-top: 0px;
+    padding-bottom: 0;
 }
 
 .footer a {
-  color: #ff0000;
-  padding-top: 15%;
-  font-size: 20px;
-  padding: 10px;
-  transition: all .5s ease;
+    color: #ff0000;
+    padding-top: 15%;
+    font-size: 20px;
+    padding: 10px;
+    transition: all .5s ease;
 }
 
 .footer a:hover {
-  color: white;
+    color: white;
 }
 
 .social-links {
-  color: black;
+    color: black;
 }
 
 .social-links :hover {
@@ -155,13 +157,7 @@ h4 {
 }
 
 
-
-
-
 /***** Footer *****/
 
 
-
-
 /* Retina-ize images/icons */
-
