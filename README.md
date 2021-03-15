@@ -1,8 +1,12 @@
-# Dave Peyton "Music" INTRODUCTION!.<br>
+# Dave Peyton "Music" INTRODUCTION!.
+<br>
+
 ## *This is a simlpe 3 page wesite (Home -Bio-Contact) and 4 colours (Black #000000, White #fffbfb, Red #ff0000, Grey-rgb(214, 209, 209)*<br> 
 ## *Embedded audio and video player, external social media links and a message form*. 
 ### 1: **This is my first milestone project for code institute**.
 ### 2: **I needed a website to advertise my music/Gigs/videos and to help generate new listeners/fans**.
+
+<br>
 
 # **Site layout**
 
@@ -23,18 +27,26 @@
 ## *Contact Page* <br>
 ## 1: Header with logo and three internal navigation buttons.<br>
 ## 2: Body with pic (single cover) and message form.<br>
-## 3: Footer with external social media links and copyright mark.<br>
+## 3: Footer with external social media links and copyright mark.
+<br>
 
-# **UX** <br>
-## 1.  This site is for people that like exploring new independent music. 
+# **UX** 
+<br>
 
-## 2.  I want the user to navigate with ease and have a positive experence on this site.
+## This site is for people that like exploring new independent music and communicate and interact with the Artist. 
+<br> 
 
+ # **User Feedback** 
+<br>
 
+## 1.  This site is easy to navigate and fulfills it's purpose. 
+
+## 2.  The color combination really works.
+
+## 3. More content is needed (music , Videos , merchandise)
 <br>
 
 # **Tools/Languages Used**
-
 <br>
 
 ##  HTML5- CSS3- This is a responsive website. I designed this site using html and css. I utilised these tools to the best of my coding knowledge to date. I aplied animation effects and styling to help the page come to life and make the UX more enjoyable.
@@ -47,8 +59,6 @@
 # Wireframe 2-DeskTop Bio Page
 
  ![DeskTop Screen](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/wireframe%20Bio%20DT.png)
-
-
 <br>
 
  # Wireframe 3-DeskTop Contact Page
@@ -77,12 +87,9 @@
 - ### Photoshop was used to create the logo, resizing images and editing photos for the website.
 - ### Balsamiq:
 - ### Balsamiq was used to create the wireframes during the design process.
-
 <br> 
 
-
-
- # **Testing with css**
+# **Testing with css**
  <br>
  
  #  CSS Validator test results
@@ -91,13 +98,11 @@
 ![CSS code Validator](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/css%20validator.png)
  ##  *As you can see above initially I had 7 errors that needed fixing*. ( The main cause of these issues was using negitive values (-) 
  ## and incomplete commands (x) and the (0.2s) which should have been (2) on its own).
-
- <br>
+<br>
 
  ![CSS code animation error Validator](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/css%20code%20val%20fixed.png)
  ##  *I had 2 errors that needed fixing*. (I fixed both errors by removing the s from infront of the 4 as it was an undefined rule).
-
- <br>
+<br>
 
 ![Css animation code fixed](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/css%20animation%20pass.png)
 ##  *Animation code fixed*. 
@@ -111,21 +116,17 @@
 ## *@media code fixed for site responsiveness*.
 <br>
 
-
-<br>
-
 # *HTML code Validator issues* 
- 
- 
+<br>
  
  ![ html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/html%20val%20errors%201%20to%206.png)
 <br>
 
   ![html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/html%20val%20errors%207%20to%208.png)
-
-  <br>
+<br>
 
   # *HTML code Validator passed*
+  <br>
 
 ![ html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/index%20html%20val%20pass.png)
 ## *Index.html page passed*.
@@ -158,8 +159,10 @@
   <br>
 
   # **Site deployment via Godaddy hosting and github**. 
+  <br>
 
 ### *Once the site passed google chrome inspect tools I uploaded it to godaddy hosting and github*.
+<br>
 
 # Check Out some of my links below!
 Links:
