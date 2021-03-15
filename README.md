@@ -1,7 +1,25 @@
 # Dave Peyton "Music" INTRODUCTION!.<br>
-### My intension was to kill two birds with one stone with the development of this site . 
-### 1: My first milestone project for code institute.
-### 2: I needed a website to advertise my music/Gigs/videos and to help generate new listeners/fans.
+## *This is a simlpe 3 page wesite (Home -Bio-Contact) and 4 colours (Black #000000, White #fffbfb, Red #ff0000, Grey-rgb(214, 209, 209)*<br> 
+## *Embedded audio and video player, external social media links and a message form*. 
+### 1: **This is my first milestone project for code institute**.
+### 2: **I needed a website to advertise my music/Gigs/videos and to help generate new listeners/fans**.
+
+# **Site layout**
+
+## *Home Page* <br>
+## 1: Header with logo and three internal navigation buttons.<br>
+## 2: Body with pic (single cover) audio and video players and buy now button.<br>
+## 3: Footer with external social media links and copyright mark.<br>
+
+## *Bio Page* <br>
+## 1: Header with logo and three internal navigation buttons.<br>
+## 2: Body with pic (Artist pic) and bio paragraph.<br>
+## 3: Footer with external social media links and copyright mark.<br>
+
+## *Contact Page* <br>
+## 1: Header with logo and three internal navigation buttons.<br>
+## 2: Body with pic (single cover) and message form.<br>
+## 3: Footer with external social media links and copyright mark.<br>
 
 <br>
 
@@ -28,7 +46,7 @@
  ![DeskTop Screen](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/wireframe%20contact%20DT.png)
  <br>
 
- # Frameworks, Libraries & Programs Used
+ # **Frameworks, Libraries & Programs Used**
 <br>
 
 ### Bootstrap 4.4.1:
@@ -52,11 +70,7 @@
 
 <br> 
 
-# **Issues I encountered**
-<br>
 
- ### To be honest, I have found every aspect of building this site to be challenging. From writing basic html, page layouts, linking internal and external pages, positioning using css, fixing broken links, css code not working the way you envisioned. I even encountered issues when trying to commit files from gitpod to github. I spent alot of my time debugging error messages. Getting the site to this stage of development has been extremely challenging for me, but it has been very rewarding also, especially when you see the fruits of your labour .  
- <br>
 
  # **Testing with css**
  <br>
@@ -65,25 +79,26 @@
 
 
 ![CSS code Validator](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/css%20validator.png)
- ###  As you can see above initially I had 7 errors that needed fixing. 
+ ##  *As you can see above initially I had 7 errors that needed fixing*. ( The main cause of these issues was using negitive values (-) 
+ ## and incomplete commands (x) and the (0.2s) which should have been (2) on its own).
 
  <br>
 
  ![CSS code animation error Validator](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/css%20code%20val%20fixed.png)
- ###  I had 2 errors that needed fixing. 
+ ##  *I had 2 errors that needed fixing*. (I fixed both errors by removing the s from infront of the 4 as it was an undefined rule).
 
  <br>
 
 ![Css animation code fixed](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/css%20animation%20pass.png)
-###  Animation code fixed.
+##  *Animation code fixed*. 
  <br>
 
 ![Css style code fixed](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/css%20style%20pass.png)
-### Style code fixed.
+## *Style code fixed*.
 <br>
 
 ![Css @media code fixed](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/media%20css%20val%20pass.png)
-### @media code fixed for site responsiveness.
+## *@media code fixed for site responsiveness*.
 <br>
 
 
@@ -103,41 +118,38 @@
   # *HTML code Validator passed*
 
 ![ html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/index%20html%20val%20pass.png)
-### Index.html page passed.
+## *Index.html page passed*.
 <br>
 
   ![html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/html%20Bio%20val%20pass.png)
-### Bio.html page passed.
+## *Bio.html page passed*.
   <br>
 
   ![html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/html%20Contact%20val%20pass.png)
-### Contact.html page passed.
+## *Contact.html page passed*.
   <br>
 
 
-### Index.html page passed.
 
-# - Site Content -
+# **Testing via google chrome inspect tools**.
 <br>
 
-### This site contains three pages (Home-Contact-Bio) with annimation effects, internal and external links. embedded images ,audio and video.
- <br>
- 
- # - Why I created this site -
+## *I checked the site layout and functionality with goolge chrome inspect tool*.<br>
+### 1: Once I confirmed that the site was responsive. <br> 
+### 2: All internal and external links worked and there were no issues with content layout. <br>
+### 3: I then uploaded and hosted with github and godaddy.
 
- <br>
+ ![Responsive all devices](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/site%20responsive%20all%20devices.png)
+## *Site responsiveness passed*.
+  <br>
 
+  ![Color contrast](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/white%20on%20black%20contrast%20checker.png)
+## *Color contrast passed*.
+  <br>
 
- <br>
- 
-# - My Goal -
-<br>
+  # **Site deployment via Godaddy hosting and github**. 
 
-### This site has been a fun project that I plan on updating on a regular basics. As my coding knowledge grows so will this site. I look forward to appling new techniques and fun animation in the future ................
- <br>
- <br>
-
-
+### *Once the site passed google chrome inspect tools I uploaded it to godaddy hosting and github*.
 
 # Check Out some of my links below!
 Links:
