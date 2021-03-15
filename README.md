@@ -96,19 +96,26 @@
  ![ html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/html%20val%20errors%201%20to%206.png)
 <br>
 
-  ![html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/html%20val%20errors%207%20to%208.png)
+  ![html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/html%20val%20errors%207%20to%208.png)
 
   <br>
 
-![ html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/html%20val%20errors%201%20to%206.png)
+  # *HTML code Validator passed*
 
+![ html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/index%20html%20val%20pass.png)
+### Index.html page passed.
 <br>
 
-  ![html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/html%20val%20errors%207%20to%208.png)
-
+  ![html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/html%20Bio%20val%20pass.png)
+### Bio.html page passed.
   <br>
 
-### 
+  ![html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/html%20Contact%20val%20pass.png)
+### Contact.html page passed.
+  <br>
+
+
+### Index.html page passed.
 
 # - Site Content -
 <br>
