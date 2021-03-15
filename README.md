@@ -9,17 +9,27 @@
 ## *Home Page* <br>
 ## 1: Header with logo and three internal navigation buttons.<br>
 ## 2: Body with pic (single cover) audio and video players and buy now button.<br>
-## 3: Footer with external social media links and copyright mark.<br>
+## 3: Footer with external social media links and copyright mark.
+
+<br>
 
 ## *Bio Page* <br>
 ## 1: Header with logo and three internal navigation buttons.<br>
 ## 2: Body with pic (Artist pic) and bio paragraph.<br>
 ## 3: Footer with external social media links and copyright mark.<br>
 
+<br>
+
 ## *Contact Page* <br>
 ## 1: Header with logo and three internal navigation buttons.<br>
 ## 2: Body with pic (single cover) and message form.<br>
 ## 3: Footer with external social media links and copyright mark.<br>
+
+# **UX** <br>
+## 1.  This site is for people that like exploring new independent music. 
+
+## 2.  I want the user to navigate with ease and have a positive experence on this site.
+
 
 <br>
 
@@ -27,7 +37,7 @@
 
 <br>
 
-###  HTML5- CSS3- This is a responsive website. I designed this site using html and css. I utilised these tools to the best of my coding knowledge to date. I aplied animation effects and styling to help the page come to life and make the UX more enjoyable.
+##  HTML5- CSS3- This is a responsive website. I designed this site using html and css. I utilised these tools to the best of my coding knowledge to date. I aplied animation effects and styling to help the page come to life and make the UX more enjoyable.
 <br>
 
 # Wireframe 1-DeskTop Home Page
