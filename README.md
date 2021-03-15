@@ -5,29 +5,27 @@
 
 <br>
 
-# - Tools/Languages Used - 
+# **Tools/Languages Used**
 
 <br>
 
 ###  HTML5- CSS3- This is a responsive website. I designed this site using html and css. I utilised these tools to the best of my coding knowledge to date. I aplied animation effects and styling to help the page come to life and make the UX more enjoyable.
 <br>
 
-# Wireframe 1-Full Screen
-![Full Screen](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/full%20view%20wireframe.png)
+# Wireframe 1-DeskTop Home Page
+![DeskTop Screen](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/wireframe%20-%20Home%20page%20DT.png)
 <br>
 
-# Wireframe 2-Ipad Screen
+# Wireframe 2-DeskTop Bio Page
 
- ![Ipad Screen](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/ipad%20view%20wireframe.png)
- <br>
+ ![DeskTop Screen](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/wireframe%20Bio%20DT.png)
 
 
 <br>
 
- # Wireframe 3-Smart Phone Screen
+ # Wireframe 3-DeskTop Contact Page
 
- ![Smart Phone Screen](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/smart%20phone%20view%20wireframe.png)
-
+ ![DeskTop Screen](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/wireframe%20contact%20DT.png)
  <br>
 
  # Frameworks, Libraries & Programs Used
@@ -54,38 +52,63 @@
 
 <br> 
 
-# - Issues I encountered -
+# **Issues I encountered**
 <br>
 
- ### To be honest, I have found every aspect of building this site to be challenging. From writing basic html, page layouts, linking internal and external pages, positioning using css, fixing broken links, css code not working the way you envisioned. I even encountered issues When trying to commit files from gitpod to github. I spent alot of my time debugging error messages. Getting the site to this stage of development has been extremely challenging for me, but it has been very rewarding also, especially when you see the fruits of your labour .  
+ ### To be honest, I have found every aspect of building this site to be challenging. From writing basic html, page layouts, linking internal and external pages, positioning using css, fixing broken links, css code not working the way you envisioned. I even encountered issues when trying to commit files from gitpod to github. I spent alot of my time debugging error messages. Getting the site to this stage of development has been extremely challenging for me, but it has been very rewarding also, especially when you see the fruits of your labour .  
  <br>
 
- # -Testing with css & html code Validator-
+ # **Testing with css**
  <br>
  
- #  CSS
+ #  CSS Validator test results
 
 
-![CSS code Validator](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/css%20validator.png)
- 
- ###  As you can see initially I had 7 errors that needed fixing. I fix all of them apart for lines 29-44 Animation-delay. I tried alternative values but they all gave an error , so I left them alone!. 
+![CSS code Validator](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/css%20validator.png)
+ ###  As you can see above initially I had 7 errors that needed fixing. 
 
  <br>
 
-![Css code fixed](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/css%20code%20val%20fixed.png)
+ ![CSS code animation error Validator](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/css%20code%20val%20fixed.png)
+ ###  I had 2 errors that needed fixing. 
 
-###  As you can see above I fixed most of the issues . I decided to leave the animation values as is. Any videos i've watched apply the same method that I have used. Plus, the animation runs how I want it to run!..
+ <br>
+
+![Css animation code fixed](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/css%20animation%20pass.png)
+###  Animation code fixed.
+ <br>
+
+![Css style code fixed](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/css%20style%20pass.png)
+### Style code fixed.
 <br>
+
+![Css @media code fixed](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/media%20css%20val%20pass.png)
+### @media code fixed for site responsiveness.
+<br>
+
+
+<br>
+
+# *HTML code Validator issues* 
  
- # HTML
  
- ![ html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/html%20val%20errors%201%20to%206.png)
+ 
+ ![ html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/html%20val%20errors%201%20to%206.png)
+<br>
 
   ![html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/html%20val%20errors%207%20to%208.png)
+
   <br>
 
-### I know there are still some errors in my html. There were 16 to begin with and I fixed 8. <br> The remaining errors do not effect the code negatively. <br> However, I made the mistake (ROOKIE MISTAKE) of not validating my code as I was writing. I will get around to validation all the code when I become more competent & confident in my role as a software developer!.
+![ html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/html%20val%20errors%201%20to%206.png)
+
 <br>
+
+  ![html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/html%20val%20errors%207%20to%208.png)
+
+  <br>
+
+### 
 
 # - Site Content -
 <br>
