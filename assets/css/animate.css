@@ -1,0 +1,17 @@
+.bio-img {
+    animation-name: myanimation;
+    border-radius: 1%;
+    animation-duration: 2s;
+    animation-iteration-count: 4s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+
+.cover {
+    animation-name: myanimation;
+    border-radius: 1%;
+    animation-duration: 2s;
+    animation-iteration-count: 4s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
