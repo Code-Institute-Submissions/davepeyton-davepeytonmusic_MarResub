@@ -102,99 +102,6 @@ h4 {
     min-height: 50vh;
     width: 85vw;
 }
-/*
-@media all and (max-width: 1500px) {
- .bio-text, .text {
-
-  font-size: 20px;
-  line-height: 40px;
-  padding-bottom: 10%;
- 
-  }
-}
-
-@media all and (max-width: 768px) {
-.bio-text, .text {
-
-  font-size: 30px;
- 
-  }
-}
-
-@media all and (max-width: 750px) {
- .bio-text {
-
-  font-size: 20px;
- 
-  }
-}
-
-@media all and (max-width: 540px) {
- .bio-text {
-
-  font-size: 20px;
- 
-  }
-}
-
-@media all and (max-width: 411px) {
-.bio-text, .text {
-
-  font-size: 18px;
-  padding-bottom: 10%;
-  }
-}
-
-
-
-@media all and (max-width: 375px) {
- .bio-text {
-
-  font-size: 18px;
- 
-  }
-}
-
-
-@media all and (max-width: 360px) {
- .bio-text {
-
-  font-size: 18px;
- 
-  }
-}
-
-
-@media all and (max-width: 320px) {
- .bio-text, .text {
-
-  font-size: 14px;
-
- 
-  }
-}
-
-@media all and (max-width: 280px) {
-.bio-text, .text{
-
-  font-size: 18px;
-  padding-bottom: 025%;
- 
-  }
-}
-*/
-
-/*
-.title {
-    padding-left: 50px;
-}
-
-h2 {
-    padding-left: 50px;
-}
-
-*/
-/*---Play track----*/
 
 
 
@@ -206,6 +113,12 @@ h2 {
     left: -60px;
     right: 10px;
 }
+
+.email {
+  margin-top: 20px;
+  margin-bottom: 30%;
+}
+
 /*footer styling*/
 .footer {
   width: 100%;
