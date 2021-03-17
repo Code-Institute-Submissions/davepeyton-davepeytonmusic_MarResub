@@ -81,16 +81,10 @@ h4 {
     padding-top: 15px;
 }
 
-
-/*---drop menu li background color----*/
-
-
-/*
-.social-links-header :hover {
-    color: rgb(214, 209, 209);
+.buy-img {
+    max-width: 100px;
+    max-height: 100px;
 }
-
-/* BIO text */
 
 .bio-text,
 .text {
@@ -119,8 +113,6 @@ h4 {
     margin-bottom: 30%;
 }
 
-
-/*footer styling*/
 
 .footer {
     width: 100%;
@@ -157,7 +149,3 @@ h4 {
 }
 
 
-/***** Footer *****/
-
-
-/* Retina-ize images/icons */
