@@ -1,11 +1,28 @@
 # Dave Peyton "Music" INTRODUCTION!.
 <br>
 
+
+
 ## *This is a simlpe 3 page wesite (Home -Bio-Contact) and 4 colours (Black #000000, White #fffbfb, Red #ff0000, Grey-rgb(214, 209, 209)*<br> 
 ## *Embedded audio and video player, external social media links and a message form*. 
 ### 1: **This is my first milestone project for code institute**.
 ### 2: **I needed a website to advertise my music/Gigs/videos and to help generate new listeners/fans**.
+<br>
 
+# **UX** 
+<br>
+
+## This site is for people that like exploring new independent music and communicate and interact with the Artist. 
+<br> 
+
+ # **User Feedback** 
+<br>
+
+## 1.  This site is easy to navigate and fulfills it's purpose. 
+
+## 2.  The color combinations work well.
+
+## 3. More content is needed (music , Videos , merchandise)
 <br>
 
 # **Site layout**
@@ -30,27 +47,6 @@
 ## 3: Footer with external social media links and copyright mark.
 <br>
 
-# **UX** 
-<br>
-
-## This site is for people that like exploring new independent music and communicate and interact with the Artist. 
-<br> 
-
- # **User Feedback** 
-<br>
-
-## 1.  This site is easy to navigate and fulfills it's purpose. 
-
-## 2.  The color combinations work well.
-
-## 3. More content is needed (music , Videos , merchandise)
-<br>
-
-# **Tools/Languages Used**
-<br>
-
-##  HTML5- CSS3- This is a responsive website. I designed this site using html and css. I utilised these tools to the best of my coding knowledge to date. I aplied animation effects and styling to help the page come to life and make the UX more enjoyable.
-<br>
 
 # Wireframe 1-DeskTop Home Page
 ![DeskTop Screen](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/wireframe%20-%20Home%20page%20DT.png)
@@ -65,6 +61,15 @@
 
  ![DeskTop Screen](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/wireframe%20contact%20DT.png)
  <br>
+
+# **Tools/Languages Used**
+<br>
+
+##  HTML5- CSS3- This is a responsive website. I designed this site using html and css. I utilised these tools to the best of my coding knowledge to date. I aplied animation effects and styling to help the page come to life and make the UX more enjoyable.
+<br>
+
+
+
 
  # **Frameworks, Libraries & Programs Used**
 <br>
