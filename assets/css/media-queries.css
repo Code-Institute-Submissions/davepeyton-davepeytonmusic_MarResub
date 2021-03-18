@@ -169,16 +169,17 @@
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .column-left {
-        width: 80%;
+        width: auto;
         padding-bottom: 40px;
-        padding-left: 120px;
+        padding-left: 32%;
     }
     .column-right {
-        width: 100%;
+        width: auto;
         padding-bottom: 150px;
-        padding-left: 20px;
+        padding-left: 0px;
+        margin-right: 10%;
     }
     audio {
         width: 100%;
@@ -187,13 +188,13 @@
 
 @media all and (max-width: 280px) {
     .column-left {
-        width: 100%;
-        padding-left: 10%;
+        width: auto%;
+        padding-left: 33%;
     }
     .column-right {
-        width: 100%;
+        width: auto;
         padding-left: 0;
-        padding-right: 0;
+        margin-right: 10%;
         padding-top: 0px
     }
     audio {
@@ -373,7 +374,7 @@
 
 @media all and (max-width: 1024px) {
       .email {
-        margin-left: 30%;
+        margin-left: 20%;
         margin-Right: 10%;
         padding-left: 0px;
         padding-top: 10px;
@@ -389,8 +390,8 @@
         font-size: 30px;
     }
       .email {
-        margin-left: 23%;
-        margin-Right: 10%;
+        margin-left: 10%;
+        margin-Right: 1%;
         padding-left: 0px;
         padding-top: 10px;
         padding-right: 0;
@@ -409,15 +410,17 @@
     .bio-text {
         font-size: 20px;
     }
-       .email {
-        margin-left: 13%;
-        margin-Right: 10%;
+
+     .email {
+        margin-left: 8%;
+        margin-Right: 8%;
         padding-left: 0px;
         padding-top: 10px;
         padding-right: 0;
         padding-bottom: 4px;
         line-height: 30px;
     }
+      
 }
 
 @media all and (max-width: 411px) {

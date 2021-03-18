@@ -41,7 +41,7 @@
 
 ## 1.  This site is easy to navigate and fulfills it's purpose. 
 
-## 2.  The color combination really works.
+## 2.  The color combinations work well.
 
 ## 3. More content is needed (music , Videos , merchandise)
 <br>
@@ -158,16 +158,16 @@
 ## *Color contrast passed*.
   <br>
 
-  # **Site deployment via Godaddy hosting and github**. 
+  # **Site deployment via github**. 
   <br>
 
-### *Once the site passed google chrome inspect tools I uploaded it to godaddy hosting and github*.
+### *Once the site passed google chrome inspect tools I uploaded it to github*.
 <br>
 
 # Check Out some of my links below!
 Links:
 <br>
-[Dave Peyton Music](http://www.davepeytonmusic.com)<br>
+[Dave Peyton Music](https://davepeyton.github.io/davepeytonmusic/)<br>
 [Find me on FaceBook](https://www.facebook.com/davepeytonsmusic)<br>
 [See some live shots on instagram](https://www.instagram.com/davepeytonmusic)<br>
 [Get your tweets on ](https://twitter.com/DavePeytonMusic)<br>
