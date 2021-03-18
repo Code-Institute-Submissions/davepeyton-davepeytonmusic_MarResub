@@ -158,16 +158,26 @@
 ## *Color contrast passed*.
   <br>
 
-  # **Site deployment via github**. 
+  # **Site deployment via github and Godaddy Hosting**. 
   <br>
 
-### *Once the site passed google chrome inspect tools I uploaded it to github*.
-<br>
+## *GitHub*:
 
+### 1.. I commit the whole site 'git add .'(push) the site from gitpod to github.
+2.. In github go to settings, github pages, source, Branch = Master, Folder = root.
+Once the site passed google chrome inspect tools I then uploaded it to Godady hosting..
+<br>
+## *Godaddy hosting*:
+
+### 1.. I open 'visual studio code' Clone the site from github repository to 'visual studio code'.
+### 2.. From VSC I save the site to a local folder on my computer.
+### 3.. I host the site from my local folder on to godaddy hosting.
 # Check Out some of my links below!
 Links:
 <br>
-[Dave Peyton Music](https://davepeyton.github.io/davepeytonmusic/)<br>
+
+[Dave Peyton Music](http://www.davepeytonmusic.com)<br>
+[Github ](https://davepeyton.github.io/davepeytonmusic/)<br>
 [Find me on FaceBook](https://www.facebook.com/davepeytonsmusic)<br>
 [See some live shots on instagram](https://www.instagram.com/davepeytonmusic)<br>
 [Get your tweets on ](https://twitter.com/DavePeytonMusic)<br>
