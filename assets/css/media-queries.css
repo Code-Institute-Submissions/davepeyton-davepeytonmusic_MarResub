@@ -371,10 +371,31 @@
     }
 }
 
+@media all and (max-width: 1024px) {
+      .email {
+        margin-left: 30%;
+        margin-Right: 10%;
+        padding-left: 0px;
+        padding-top: 10px;
+        padding-right: 0;
+        padding-bottom: 4px;
+        line-height: 30px;
+    }
+}
+
 @media all and (max-width: 768px) {
     .bio-text,
     .text {
         font-size: 30px;
+    }
+      .email {
+        margin-left: 23%;
+        margin-Right: 10%;
+        padding-left: 0px;
+        padding-top: 10px;
+        padding-right: 0;
+        padding-bottom: 4px;
+        line-height: 30px;
     }
 }
 
@@ -387,6 +408,15 @@
 @media all and (max-width: 540px) {
     .bio-text {
         font-size: 20px;
+    }
+       .email {
+        margin-left: 13%;
+        margin-Right: 10%;
+        padding-left: 0px;
+        padding-top: 10px;
+        padding-right: 0;
+        padding-bottom: 4px;
+        line-height: 30px;
     }
 }
 
@@ -424,12 +454,19 @@
         font-size: 18px;
         padding-bottom: 25%;
     }
-}
+     .email {
+         max-width: 40%;
+        margin-left: 29%;
+        margin-Right: 10%;
+        padding-left: 0px;
+        padding-top: 10px;
+        padding-right: 0;
+        padding-bottom: 4px;
+        line-height: 30px;
+    }
 
-@media all and (max-width: 280px) {
-    .email {
-        font-size: 18px;
-        padding-bottom: 025%;
-        padding-bottom: 23%;
+    .cover {
+        padding-right: 20px;
     }
 }
+
