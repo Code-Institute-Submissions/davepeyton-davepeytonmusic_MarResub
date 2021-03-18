@@ -163,15 +163,16 @@
 ## *Color contrast passed*.
   <br>
 
-  # **Site deployment via github and Godaddy Hosting**. 
+  # **Site Deployment via github and Godaddy Hosting**. 
   <br>
 
 ## *GitHub*:
 
 ### 1.. I commit the whole site 'git add .'(push) the site from gitpod to github.
-2.. In github go to settings, github pages, source, Branch = Master, Folder = root.
-Once the site passed google chrome inspect tools I then uploaded it to Godady hosting..
+### 2.. In github go to settings, github pages, source, Branch = Master, Folder = root.
+### [Once the site has passed google chrome inspect tools I then uploaded it to Godady hosting]
 <br>
+
 ## *Godaddy hosting*:
 
 ### 1.. I open 'visual studio code' Clone the site from github repository to 'visual studio code'.
