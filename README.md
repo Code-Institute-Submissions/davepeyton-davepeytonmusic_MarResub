@@ -1,13 +1,10 @@
-# Dave Peyton "Music" INTRODUCTION!.
+# Dave Peyton 'Music'
 <br>
 
 
-
-## *This is a simlpe 3 page wesite (Home -Bio-Contact) and 4 colours (Black #000000, White #fffbfb, Red #ff0000, Grey-rgb(214, 209, 209)*<br> 
-## *Embedded audio and video player, external social media links and a message form*. 
-### 1: **This is my first milestone project for code institute**.
-### 2: **I needed a website to advertise my music/Gigs/videos and to help generate new listeners/fans**.
+## *This site is for people that like exploring new independent music and communicate and interact with the Artist*. 
 <br>
+
 
 # **UX** 
 <br>
@@ -15,17 +12,27 @@
 ## This site is for people that like exploring new independent music and communicate and interact with the Artist. 
 <br> 
 
- # **User Feedback** 
+ # **User Stories** 
 <br>
 
-## 1.  This site is easy to navigate and fulfills it's purpose. 
 
-## 2.  The color combinations work well.
+## *As a first time visitor, I want to*:
+### 1.  Navigate through the site with ease. 
 
-## 3. More content is needed (music , Videos , merchandise)
+### 2.  Learn about the Artist
+
+### 3. Listen to music ,  watch videos and buy merchandise
+
+### 4. Contact and connet with the artist via social media platforms
 <br>
 
 # **Site layout**
+
+## *This is a simlpe 3 page wesite (Home -Bio-Contact) and 4 colours (Black #000000, White #fffbfb, Red #ff0000, Grey-rgb(214, 209, 209)*<br> 
+## *Embedded audio and video player, external social media links and a message form*. 
+### 1: **This is my first milestone project for code institute**.
+### 2: **I needed a website to advertise my music/Gigs/videos and to help generate new listeners/fans**.
+<br>
 
 ## *Home Page* <br>
 ## 1: Header with logo and three internal navigation buttons.<br>
@@ -147,13 +154,6 @@
 
 
 
-# **Testing via google chrome inspect tools**.
-<br>
-
-## *I checked the site layout and functionality with goolge chrome inspect tool*.<br>
-### 1: Once I confirmed that the site was responsive. <br> 
-### 2: All internal and external links worked and there were no issues with content layout. <br>
-### 3: I then uploaded and hosted with github and godaddy.
 
  ![Responsive all devices](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/site%20responsive%20all%20devices.png)
 ## *Site responsiveness passed*.
@@ -163,21 +163,37 @@
 ## *Color contrast passed*.
   <br>
 
+  # **Testing via google chrome inspect tools**.
+<br>
+
+## *I checked the site layout and functionality with goolge chrome inspect tool*.<br>
+### 1: Once I confirmed that the site is responsive. <br> 
+### 2: All internal and external links worked and there were no issues with content layout. <br>
+### 3: I then uploaded and hosted with github and godaddy.
+
+
   # **Site Deployment via github and Godaddy Hosting**. 
   <br>
 
 ## *GitHub*:
 
-### 1.. I commit the whole site 'git add .'(push) the site from gitpod to github.
-### 2.. In github go to settings, github pages, source, Branch = Master, Folder = root.
-### [Once the site has passed google chrome inspect tools I then uploaded it to Godady hosting]
+### :: Log in to GitHub and locate your repository
+### :: In your Repository menu, click the Settings tab
+### :: Scroll down to 'GitHub Pages'
+### :: Click the dropdown labelled 'Source' = ROOT, 'Branch' = Master
+### :: Click the Save, scroll down the page to 'GitHub Pages' to see your published site
+
+# *Local Deployment*
+
+### :: Fisrt I open VSC and clone my github repository
+### ::  I copy the github repository url and paste it into VSC 
+### :: I save the VSC file in a local folder on my computer
 <br>
 
-## *Godaddy hosting*:
+# *Godaddy hosting*:
 
-### 1.. I open 'visual studio code' Clone the site from github repository to 'visual studio code'.
-### 2.. From VSC I save the site to a local folder on my computer.
-### 3.. I host the site from my local folder on to godaddy hosting.
+### :: I locate my local folder and copy all files to godaddy hosting
+
 # Check Out some of my links below!
 Links:
 <br>
