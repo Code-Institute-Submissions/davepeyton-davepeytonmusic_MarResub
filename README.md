@@ -35,23 +35,23 @@
 <br>
 
 ## *Home Page* <br>
-## 1: Header with logo and three internal navigation buttons.<br>
-## 2: Body with pic (single cover) audio and video players and buy now button.<br>
-## 3: Footer with external social media links and copyright mark.
+### 1: Header with logo and three internal navigation buttons.<br>
+### 2: Body with pic (single cover) audio and video players and buy now button.<br>
+### 3: Footer with external social media links and copyright mark.
 
 <br>
 
 ## *Bio Page* <br>
-## 1: Header with logo and three internal navigation buttons.<br>
-## 2: Body with pic (Artist pic) and bio paragraph.<br>
-## 3: Footer with external social media links and copyright mark.<br>
+### 1: Header with logo and three internal navigation buttons.<br>
+### 2: Body with pic (Artist pic) and bio paragraph.<br>
+### 3: Footer with external social media links and copyright mark.<br>
 
 <br>
 
 ## *Contact Page* <br>
-## 1: Header with logo and three internal navigation buttons.<br>
-## 2: Body with pic (single cover) and message form.<br>
-## 3: Footer with external social media links and copyright mark.
+### 1: Header with logo and three internal navigation buttons.<br>
+### 2: Body with pic (single cover) and message form.<br>
+### 3: Footer with external social media links and copyright mark.
 <br>
 
 
@@ -72,7 +72,7 @@
 # **Tools/Languages Used**
 <br>
 
-##  HTML5- CSS3- This is a responsive website. I designed this site using html and css. I utilised these tools to the best of my coding knowledge to date. I aplied animation effects and styling to help the page come to life and make the UX more enjoyable.
+###  HTML5- CSS3- This is a responsive website. I designed this site using html and css. I utilised these tools to the best of my coding knowledge to date. I aplied animation effects and styling to help the page come to life and make the UX more enjoyable.
 <br>
 
 
@@ -104,31 +104,31 @@
 # **Testing with css**
  <br>
  
- #  CSS Validator test results
+ ## CSS Validator test results
 
 
 ![CSS code Validator](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/css%20validator.png)
- ##  *As you can see above initially I had 7 errors that needed fixing*. ( The main cause of these issues was using negitive values (-) 
- ## and incomplete commands (x) and the (0.2s) which should have been (2) on its own).
+ ###  *As you can see above initially I had 7 errors that needed fixing*. ( The main cause of these issues was using negitive values (-) 
+ ### and incomplete commands (x) and the (0.2s) which should have been (2) on its own).
 <br>
 
  ![CSS code animation error Validator](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/css%20code%20val%20fixed.png)
- ##  *I had 2 errors that needed fixing*. (I fixed both errors by removing the s from infront of the 4 as it was an undefined rule).
+ ###  *I had 2 errors that needed fixing*. (I fixed both errors by removing the s from infront of the 4 as it was an undefined rule).
 <br>
 
 ![Css animation code fixed](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/css%20animation%20pass.png)
-##  *Animation code fixed*. 
+### *Animation code fixed*. 
  <br>
 
 ![Css style code fixed](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/css%20style%20pass.png)
-## *Style code fixed*.
+### *Style code fixed*.
 <br>
 
 ![Css @media code fixed](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/media%20css%20val%20pass.png)
-## *@media code fixed for site responsiveness*.
+### *@media code fixed for site responsiveness*.
 <br>
 
-# *HTML code Validator issues* 
+### *HTML code Validator issues* 
 <br>
  
  ![ html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/html%20val%20errors%201%20to%206.png)
@@ -137,36 +137,36 @@
   ![html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/html%20val%20errors%207%20to%208.png)
 <br>
 
-  # *HTML code Validator passed*
+  ### *HTML code Validator passed*
   <br>
 
 ![ html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/index%20html%20val%20pass.png)
-## *Index.html page passed*.
+### *Index.html page passed*.
 <br>
 
   ![html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/html%20Bio%20val%20pass.png)
-## *Bio.html page passed*.
+### *Bio.html page passed*.
   <br>
 
   ![html for index](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/html%20Contact%20val%20pass.png)
-## *Contact.html page passed*.
+### *Contact.html page passed*.
   <br>
 
 
 
 
  ![Responsive all devices](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/site%20responsive%20all%20devices.png)
-## *Site responsiveness passed*.
+### *Site responsiveness passed*.
   <br>
 
   ![Color contrast](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/white%20on%20black%20contrast%20checker.png)
-## *Color contrast passed*.
+### *Color contrast passed*.
   <br>
 
   # **Testing via google chrome inspect tools**.
 <br>
 
-## *I checked the site layout and functionality with goolge chrome inspect tool*.<br>
+### *I checked the site layout and functionality with goolge chrome inspect tool*.<br>
 ### 1: Once I confirmed that the site is responsive. <br> 
 ### 2: All internal and external links worked and there were no issues with content layout. <br>
 ### 3: I then uploaded and hosted with github and godaddy.
@@ -175,7 +175,7 @@
   # **Site Deployment via github and Godaddy Hosting**. 
   <br>
 
-## *GitHub*:
+# *GitHub*:
 
 ### :: Log in to GitHub and locate your repository
 ### :: In your Repository menu, click the Settings tab
