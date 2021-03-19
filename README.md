@@ -2,6 +2,9 @@
 <br>
 
 
+![CView on all devices](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/DPM%20on%20all%20devices.png)
+
+
 ## *This site is for people that like exploring new independent music and communicate and interact with the Artist*. 
 <br>
 
@@ -55,8 +58,8 @@
 <br>
 
 
-# Wireframe 1-DeskTop Home Page
-![DeskTop Screen](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/wireframe%20-%20Home%20page%20DT.png)
+# Wireframe 1-DeskTop Home Paghttps:e
+![DeskTop Screen](//raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/wireframe%20-%20Home%20page%20DT.png)
 <br>
 
 # Wireframe 2-DeskTop Bio Page
