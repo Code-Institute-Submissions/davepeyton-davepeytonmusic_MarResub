@@ -2,11 +2,10 @@
 <br>
 
 
-![CView on all devices](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/DPM%20on%20all%20devices.png)
-
-
-## *This site is for people that like exploring new independent music and communicate and interact with the Artist*. 
+![CView on all devices](https://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/DPM%20on%20All%20devises.png)
 <br>
+
+
 
 
 # **UX** 
@@ -59,7 +58,7 @@
 
 
 # Wireframe 1-DeskTop Home Paghttps:e
-![DeskTop Screen](//raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/wireframe%20-%20Home%20page%20DT.png)
+![DeskTop Screen](http://raw.githubusercontent.com/davepeyton/davepeytonmusic/master/assets/images/test/wireframe%20-%20Home%20page%20DT.png)
 <br>
 
 # Wireframe 2-DeskTop Bio Page
@@ -171,7 +170,7 @@
 
 ### *I checked the site layout and functionality with goolge chrome inspect tool*.<br>
 ### 1: Once I confirmed that the site is responsive. <br> 
-### 2: All internal and external links worked and there were no issues with content layout. <br>
+### 2: All internal and external links work and there are no issues with content layout. <br>
 ### 3: I then uploaded and hosted with github and godaddy.
 
 
@@ -183,12 +182,12 @@
 ### :: Log in to GitHub and locate your repository
 ### :: In your Repository menu, click the Settings tab
 ### :: Scroll down to 'GitHub Pages'
-### :: Click the dropdown labelled 'Source' = ROOT, 'Branch' = Master
+### :: Click the dropdown labelled 'Source' = Root, 'Branch' = Master
 ### :: Click the Save, scroll down the page to 'GitHub Pages' to see your published site
 
 # *Local Deployment*
 
-### :: Fisrt I open VSC and clone my github repository
+### :: First I open VSC and clone my github repository
 ### ::  I copy the github repository url and paste it into VSC 
 ### :: I save the VSC file in a local folder on my computer
 <br>
@@ -196,6 +195,7 @@
 # *Godaddy hosting*:
 
 ### :: I locate my local folder and copy all files to godaddy hosting
+<br>
 
 # Check Out some of my links below!
 Links:
@@ -211,3 +211,12 @@ Links:
 
 
  
+# Media for this project
+ 
+### :: *video, audio, photos were created by me*.
+<br>
+
+# Acknowledgements
+<br>
+
+### *I want to give a huge shout out to my mentor for all his support and wisdom!*
