@@ -188,14 +188,14 @@
 
 @media all and (max-width: 280px) {
     .column-left {
-        width: auto%;
+        width: auto;
         padding-left: 33%;
     }
     .column-right {
         width: auto;
         padding-left: 0;
         margin-right: 10%;
-        padding-top: 0px
+        padding-top: 0px;
     }
     audio {
         width: 100%;
