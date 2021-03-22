@@ -25,7 +25,7 @@
 }
 
 
-@media all and (max-width: 1480) {
+@media all and (max-width: 1480px) {
    .bio-text {
        font-size: 45px;
        padding-bottom: 20%;
